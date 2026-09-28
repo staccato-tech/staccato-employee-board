@@ -1,0 +1,16 @@
+[
+ {
+  "id": 58,
+  "title": "Core Values",
+  "type": "alert",
+  "expires": null,
+  "html": "<div class=\"text-center\">\n<h4 class=\"text-lg uppercase font-medium\">Always Forward</h4>\n<p class=\"text-sm mb-5\">We pursue excellence every day and turn obstacles into opportunities.</p>\n\n<h4 class=\"text-lg uppercase font-medium\">Own It</h4>\n<p class=\"text-sm mb-5\">We are accountable for ourselves, our team, and our company.</p>\n\n<h4 class=\"text-lg uppercase font-medium\">Customer Obsessed</h4>\n<p class=\"text-sm mb-5\">We work to exceed our customers' expectations in everything we do.</p>\n\n</div>\n<div class=\"text-center\">\n<h4 class=\"text-lg uppercase font-medium\">Act With Honor</h4>\n<p class=\"text-sm mb-5\">We hold our integrity and reputation sacred.</p>\n\n<h4 class=\"text-lg uppercase font-medium\">Stand Together</h4>\n<p class=\"text-sm mb-5\">We support and listen to each other and are inclusive.</p>\n\n<h4 class=\"text-lg uppercase font-medium\">Stay Humble</h4>\n<p class=\"text-sm mb-5\">We learn from our failures and seek honest feedback.</p>\n\n</div>"
+ },
+ {
+  "id": 835,
+  "title": "Holiday Schedule",
+  "type": "big",
+  "expires": "2026-01-02",
+  "html": "<!-- wp:paragraph -->\n<p>As we approach the end of the year, we’d like to share the remaining company holidays for 2025 and the first holidays of 2026. Please take note of the following dates:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:cover {\"url\":\"http://stacemployees.wpenginepowered.com/wp-content/uploads/2025/11/merry-christmas-819x1024.png\",\"id\":841,\"dimRatio\":50,\"overlayColor\":\"black\",\"isUserOverlayColor\":true,\"minHeight\":850,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-cover\" style=\"min-height:850px\"><img class=\"wp-block-cover__image-background wp-image-841 size-large\" alt=\"\" src=\"https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/11/merry-christmas-819x1024.png\" data-object-fit=\"cover\"/><span aria-hidden=\"true\" class=\"wp-block-cover__background has-black-background-color has-background-dim\"></span><div class=\"wp-block-cover__inner-container\"><!-- wp:group {\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group\"><!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\"><strong>Thursday, January 1</strong>&nbsp;– New Year’s Day</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\"><strong>Friday, January 2</strong>&nbsp;– Day after New Year’s</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group --></div></div>\n<!-- /wp:cover -->"
+ }
+]

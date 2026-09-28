@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Staccato Employee Board</title>
+  <meta name="description" content="Staccato 2011 employee board: team spotlight, milestones, and company bulletins.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#001a38">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5z"/></symbol>
+    <symbol id="i-anchor" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 1 1 5.8V9h3v2h-3v8.9A7 7 0 0 0 19 14h-2l3-4 3 4h-2a9 9 0 0 1-18 0H1l3-4 3 4H5a7 7 0 0 0 6 5.9V11H8V9h3V7.8A3 3 0 0 1 12 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24"><path d="M7 2h4l1 3 1-3h4l-3 7.1A6 6 0 1 1 10 9.1zM12 11a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></symbol>
+    <symbol id="i-cake" viewBox="0 0 24 24"><path d="M12 2c1 1.3 1.5 2.3 1.5 3a1.5 1.5 0 0 1-3 0c0-.7.5-1.7 1.5-3zM11 8h2v3h5a2 2 0 0 1 2 2v2.2c-1 .8-2 .8-3 0-1 .8-2 .8-3 0-1 .8-2 .8-3 0-1 .8-2 .8-3 0-1 .8-2 .8-3 0V13a2 2 0 0 1 2-2h5zM4 17.6c1.3.6 2.7.6 4 0 1.3.6 2.7.6 4 0 1.3.6 2.7.6 4 0 1.3.6 2.7.6 4 0V21a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15.4 5.4L14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M8.6 5.4L10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M4 4h6v2H6v4H4zm10 0h6v6h-2V6h-4zM4 14h2v4h4v2H4zm14 0h2v6h-6v-2h4z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path d="M10 3a7 7 0 0 1 5.6 11.2l5.1 5.1-1.4 1.4-5.1-5.1A7 7 0 1 1 10 3zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2v.3A7 7 0 0 1 19 11v5l2 2v1H3v-1l2-2v-5a7 7 0 0 1 5-6.7V4a2 2 0 0 1 2-2zm-2 18h4a2 2 0 0 1-4 0z"/></symbol>
+  </svg>
+
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#board" aria-label="Staccato Employee Board home">
+      <img src="assets/staccato-logo-white.svg" alt="Staccato" class="brand-logo">
+      <span class="brand-divider"></span>
+      <span class="brand-label">Employee Board</span>
+    </a>
+
+    <nav class="modes" aria-label="View">
+      <a href="#board" data-mode="board">Board</a>
+      <a href="#directory" data-mode="directory">Directory</a>
+    </nav>
+
+    <div class="clock" aria-live="off">
+      <div class="clock-time" id="clock-time">--:--</div>
+      <div class="clock-date" id="clock-date"></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- BOARD (kiosk / TV view) -->
+    <section id="view-board" class="view view-board" aria-label="Team board">
+      <div class="board-main">
+        <div class="board-head">
+          <div>
+            <p class="eyebrow">The team behind every Staccato</p>
+            <h1 class="board-title"><span id="headcount">—</span> people strong</h1>
+          </div>
+          <div class="board-controls">
+            <span class="page-indicator" id="page-indicator"></span>
+            <button class="icon-btn" id="btn-prev" aria-label="Previous"><svg><use href="#i-prev"/></svg></button>
+            <button class="icon-btn" id="btn-pause" aria-label="Pause rotation"><svg><use href="#i-pause"/></svg></button>
+            <button class="icon-btn" id="btn-next" aria-label="Next"><svg><use href="#i-next"/></svg></button>
+            <button class="icon-btn" id="btn-full" aria-label="Full screen"><svg><use href="#i-expand"/></svg></button>
+          </div>
+        </div>
+        <div class="mosaic" id="mosaic" aria-live="polite"></div>
+        <div class="progress"><span id="progress-bar"></span></div>
+      </div>
+
+      <aside class="rail" aria-label="Bulletins and milestones">
+        <div id="rail-bulletins"></div>
+
+        <section class="panel panel-values">
+          <h2 class="panel-title">Our Core Values</h2>
+          <div class="value-stage" id="value-stage"></div>
+          <div class="value-dots" id="value-dots"></div>
+        </section>
+
+        <section class="panel">
+          <h2 class="panel-title">Anniversaries <span class="panel-sub" id="anniv-month"></span></h2>
+          <ul class="mini-list" id="anniv-list"></ul>
+        </section>
+
+        <section class="panel">
+          <h2 class="panel-title">Welcome Aboard</h2>
+          <ul class="mini-list" id="new-list"></ul>
+        </section>
+      </aside>
+    </section>
+
+    <!-- DIRECTORY (browse / search) -->
+    <section id="view-directory" class="view view-directory" aria-label="Employee directory" hidden>
+      <div class="dir-head">
+        <div>
+          <p class="eyebrow">Directory</p>
+          <h1 class="dir-title">Find a teammate</h1>
+        </div>
+        <div class="dir-tools">
+          <label class="search">
+            <svg><use href="#i-search"/></svg>
+            <input type="search" id="dir-search" placeholder="Search name or title" autocomplete="off">
+          </label>
+          <select id="dir-dept" aria-label="Department"></select>
+          <select id="dir-sort" aria-label="Sort">
+            <option value="name">Name A–Z</option>
+            <option value="tenure">Longest tenure</option>
+            <option value="newest">Newest first</option>
+          </select>
+        </div>
+      </div>
+      <p class="dir-count" id="dir-count"></p>
+      <div class="dir-grid" id="dir-grid"></div>
+    </section>
+  </main>
+
+  <div class="ticker" id="ticker" aria-label="Announcements">
+    <div class="ticker-label"><svg><use href="#i-bell"/></svg><span>Staccato</span></div>
+    <div class="ticker-track"><div class="ticker-run" id="ticker-run"></div></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

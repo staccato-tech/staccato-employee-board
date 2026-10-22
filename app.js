@@ -80,6 +80,7 @@
   /* ---------- Board (rotating mosaic) ---------- */
   let employees = [], queue = [], page = 0, pages = 1, perPage = 10, timer = null, paused = false, progressAnim = null;
 
+  const byNewest = list => list.slice().sort((a, b) => (b.hireDate || '').localeCompare(a.hireDate || ''));
   function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
   function layout() {
@@ -124,7 +125,6 @@
 
   function go(delta) {
     page = (page + delta + pages) % pages;
-    if (page === 0 && delta > 0) queue = shuffle(employees);  // fresh order each full cycle
     renderPage();
     schedule();
   }
@@ -263,7 +263,7 @@
     fetch('data/bulletins.json').then(r => r.json()).catch(() => []),
   ]).then(([emps, bulletins]) => {
     employees = emps;
-    queue = shuffle(employees);
+    queue = byNewest(employees);  // board order: newest hire first, longest tenure last
     $('#headcount').textContent = employees.length;
     renderMilestones();
     renderBulletins(bulletins);

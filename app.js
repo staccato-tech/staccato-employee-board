@@ -15,7 +15,7 @@
     'Army':               { label: 'Army Veteran',         icon: 'i-shield' },
     'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor' },
     'Air Force':          { label: 'Air Force Veteran',    icon: 'i-plane' },
-    'Marines':            { label: 'Marine Corps Veteran', icon: 'i-shield' },
+    'Marines':            { label: 'Marine Veteran', icon: 'i-shield' },
     'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-anchor' },
     'Space Force':        { label: 'Space Force Veteran',  icon: 'i-star' },
     'Military':           { label: 'Military Veteran',     icon: 'i-medal' },

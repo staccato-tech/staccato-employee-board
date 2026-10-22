@@ -330,17 +330,6 @@
   "birthday": false
  },
  {
-  "id": 323,
-  "name": "Sydney Messineo",
-  "title": "Accounts Payable Specialist",
-  "department": "Accounting",
-  "hireDate": "2025-03-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-17-scaled.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
   "id": 325,
   "name": "Josh Carr",
   "title": "CNC Operator I",
@@ -2097,17 +2086,6 @@
   "hireDate": "2019-01-09",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/07/Petty.jpg",
   "service": "Marines",
-  "featured": false,
-  "birthday": false
- },
- {
-  "id": 383,
-  "name": "Christina Soto",
-  "title": "Controller",
-  "department": "Accounting",
-  "hireDate": "2018-09-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Christina.jpg",
-  "service": null,
   "featured": false,
   "birthday": false
  },

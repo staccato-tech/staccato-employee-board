@@ -132,17 +132,6 @@
   "birthday": false
  },
  {
-  "id": 870,
-  "name": "Jennifer Crawford Burns",
-  "title": "Shipping and Receiving Specialist",
-  "department": "Shipping & Receiving",
-  "hireDate": "2025-10-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-12-scaled.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
   "id": 874,
   "name": "Vicente Orellana",
   "title": "Gun Production Specialist",
@@ -204,17 +193,6 @@
   "department": "Gun Shop",
   "hireDate": "2025-07-14",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-13-scaled.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
-  "id": 861,
-  "name": "Tara Holman",
-  "title": "Customer Experience Representative",
-  "department": "Customer Service",
-  "hireDate": "2025-06-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-18-scaled.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -897,17 +875,6 @@
   "department": "Engineering",
   "hireDate": "2024-04-15",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/ImgStream.png",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
-  "id": 212,
-  "name": "Steven McAdam",
-  "title": "Customer Support Warranty Specialist",
-  "department": "Customer Service",
-  "hireDate": "2024-03-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Steven.jpg",
   "service": null,
   "featured": false,
   "birthday": false

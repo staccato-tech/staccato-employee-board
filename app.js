@@ -64,7 +64,6 @@
         <div class="card-body">
           <h3 class="card-name">${esc(e.name)}</h3>
           ${e.title ? `<p class="card-title">${esc(e.title)}</p>` : ''}
-          ${e.department ? `<span class="card-dept">${esc(e.department)}</span>` : ''}
         </div>
       </article>`;
   }

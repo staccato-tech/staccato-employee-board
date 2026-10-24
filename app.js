@@ -270,8 +270,9 @@
     const prefix = config.photoPrefix.replace(/^\/+|\/+$/g, '');
     employees = emps.map(e => {
       if (!e.photo || !e.photo.replace(/\\/g, '/').startsWith('assets/photos/')) return e;
-      const filename = e.photo.replace(/\\/g, '/').slice('assets/photos/'.length);
-      return { ...e, photo: localPhotos ? `assets/photos/${filename}`
+      const sourceFilename = e.photo.replace(/\\/g, '/').slice('assets/photos/'.length);
+      const filename = sourceFilename.replace(/\.[^.]+$/, config.photoExtension || '.webp');
+      return { ...e, photo: localPhotos ? `${config.photoLocalPath || 'assets/photos-rendered/'}${filename}`
         : `${base}/${prefix}/${encodeURIComponent(filename)}` };
     });
     queue = byNewest(employees);  // board order: newest hire first, longest tenure last

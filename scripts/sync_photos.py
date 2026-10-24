@@ -10,6 +10,7 @@ from azure.core import MatchConditions
 from azure.core.exceptions import ResourceNotFoundError
 from azure.storage.blob import BlobServiceClient, ContentSettings
 from dotenv import load_dotenv
+from render_photos import render, settings
 
 ROOT = Path(__file__).resolve().parent.parent
 PHOTOS = ROOT / 'assets/photos'
@@ -21,8 +22,9 @@ def digest(path):
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-def sync(container, args):
-    prefix = os.getenv('AZURE_PHOTO_PREFIX', 'assets/photos/').strip().strip('/')
+def sync(container, args, photos=None, prefix=None):
+    photos = photos or PHOTOS
+    prefix = (prefix if prefix is not None else os.getenv('AZURE_PHOTO_PREFIX', 'assets/photos/')).strip().strip('/')
     if not prefix or any(part in ('', '.', '..') for part in prefix.split('/')) or '\\' in prefix or ':' in prefix:
         raise ValueError('Invalid AZURE_PHOTO_PREFIX')
     prefix += '/'
@@ -33,14 +35,14 @@ def sync(container, args):
                 and Path(name).suffix.lower() in EXTENSIONS
                 and not any(c in name for c in '/\\:')):
             remote[name] = item
-    if args.command == 'push' and not PHOTOS.is_dir():
+    if args.command == 'push' and not photos.is_dir():
         raise ValueError('Local photo directory is missing')
-    names = (sorted(p.name for p in PHOTOS.iterdir()
+    names = (sorted(p.name for p in photos.iterdir()
                     if p.is_file() and p.suffix.lower() in EXTENSIONS)
              if args.command == 'push' else sorted(remote))
     changed = skipped = conflicts = 0
     for name in names:
-        path = PHOTOS / name
+        path = photos / name
         blob = container.get_blob_client(prefix + name)
         old = remote.get(name)
         guard = ({'etag': old.etag, 'match_condition': MatchConditions.IfNotModified}
@@ -68,10 +70,10 @@ def sync(container, args):
                                          content_type=mimetypes.guess_type(name)[0]
                                          or 'application/octet-stream'), **guard)
             else:
-                PHOTOS.mkdir(parents=True, exist_ok=True)
+                photos.mkdir(parents=True, exist_ok=True)
                 temporary = None
                 try:
-                    with tempfile.NamedTemporaryFile(dir=PHOTOS, delete=False) as stream:
+                    with tempfile.NamedTemporaryFile(dir=photos, delete=False) as stream:
                         temporary = Path(stream.name)
                         blob.download_blob(**guard).readinto(stream)
                     if digest(temporary) != sha:
@@ -100,8 +102,23 @@ def main():
     if missing:
         parser.error('Missing .env settings: ' + ', '.join(missing))
     try:
+        output, _, _ = settings()
+        output_prefix = os.getenv('AZURE_RENDERED_PHOTO_PREFIX', 'assets/photos-rendered/')
+        source_prefix = os.getenv('AZURE_PHOTO_PREFIX', 'assets/photos/').strip('/') + '/'
+        normalized_output = output_prefix.strip('/') + '/'
+        if normalized_output.startswith(source_prefix) or source_prefix.startswith(normalized_output):
+            raise ValueError('Source and rendered Azure prefixes must be separate')
         with BlobServiceClient.from_connection_string(os.environ[keys[0]]) as service:
-            return sync(service.get_container_client(os.environ[keys[1]]), args)
+            container = service.get_container_client(os.environ[keys[1]])
+            if args.command == 'push':
+                if args.dry_run:
+                    with tempfile.TemporaryDirectory() as directory:
+                        rendered = render(Path(directory))
+                        source_result = sync(container, args)
+                        return max(source_result, sync(container, args, rendered, output_prefix))
+                render()
+            source_result = sync(container, args)
+            return max(source_result, sync(container, args, output, output_prefix))
     except ResourceNotFoundError:
         print('Azure resource not found. Verify AZURE_STORAGE_CONTAINER exists in the account identified by AZURE_STORAGE_CONTAINER_CONNECTION_STRING.')
         return 1

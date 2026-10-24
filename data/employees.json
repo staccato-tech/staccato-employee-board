@@ -16,7 +16,7 @@
   "title": "Field Sales Representative",
   "department": "",
   "hireDate": "2026-06-08",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/06/DSC01496.jpg",
+  "photo": "assets/photos/938.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -27,7 +27,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2026-05-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/06/Staccato-Employee-Headshots-Square-May-21-2-scaled.jpg",
+  "photo": "assets/photos/924.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -38,7 +38,7 @@
   "title": "Driver, Blasting and Coating I",
   "department": "",
   "hireDate": "2026-05-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/05/Screenshot-2026-05-14-at-3.40.58-PM-e1778791311206.png",
+  "photo": "assets/photos/918.png",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -49,7 +49,7 @@
   "title": "Senior Accountant",
   "department": "Accounting",
   "hireDate": "2026-03-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-24-scaled.jpg",
+  "photo": "assets/photos/851.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -60,7 +60,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2026-03-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-3-scaled.jpg",
+  "photo": "assets/photos/883.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -71,7 +71,7 @@
   "title": "Director of Marketing Operations",
   "department": "Marketing",
   "hireDate": "2026-03-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-16-scaled.jpg",
+  "photo": "assets/photos/864.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -82,7 +82,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2026-03-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-22-scaled.jpg",
+  "photo": "assets/photos/855.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -93,7 +93,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2026-01-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/05/Employee-Headshots-May-13th-Square-8-e1778791205315.jpg",
+  "photo": "assets/photos/916.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -104,7 +104,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2026-01-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/06/Staccato-Employee-Headshots-Square-May-21-3-scaled.jpg",
+  "photo": "assets/photos/926.jpg",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -115,7 +115,7 @@
   "title": "Customer Experience Technical Specialist",
   "department": "Customer Service",
   "hireDate": "2025-12-08",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-12.54.14-PM.png",
+  "photo": "assets/photos/886.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -126,7 +126,7 @@
   "title": "Gun Production Specialist",
   "department": "Gun Shop",
   "hireDate": "2025-12-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-11-scaled.jpg",
+  "photo": "assets/photos/872.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -137,7 +137,7 @@
   "title": "Gun Production Specialist",
   "department": "Gun Shop",
   "hireDate": "2025-09-22",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-10-scaled.jpg",
+  "photo": "assets/photos/874.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -148,7 +148,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2025-09-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-19-scaled.jpg",
+  "photo": "assets/photos/859.jpg",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -159,7 +159,7 @@
   "title": "International Sales Manager",
   "department": "",
   "hireDate": "2025-09-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/06/Staccato-Employee-Headshots-Square-May-21-1-scaled.jpg",
+  "photo": "assets/photos/922.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -170,7 +170,7 @@
   "title": "Sr. Process Engineer",
   "department": "Engineering",
   "hireDate": "2025-09-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-23-scaled.jpg",
+  "photo": "assets/photos/853.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -181,7 +181,7 @@
   "title": "Administrative Assistant",
   "department": "",
   "hireDate": "2025-07-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/05/Employee-Headshots-May-13th-Square-2-e1778788493796.jpg",
+  "photo": "assets/photos/905.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -192,7 +192,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2025-07-14",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-13-scaled.jpg",
+  "photo": "assets/photos/868.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -203,7 +203,7 @@
   "title": "Graphic Designer",
   "department": "Marketing",
   "hireDate": "2025-06-23",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshots-Portrait-1-scaled-e1777303149525.jpg",
+  "photo": "assets/photos/844.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -214,7 +214,7 @@
   "title": "Quality Engineer",
   "department": "Quality",
   "hireDate": "2025-06-09",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Scott-Piette-e1761251914408.jpg",
+  "photo": "assets/photos/785.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -225,7 +225,7 @@
   "title": "Business Development Associate",
   "department": "Customer Service",
   "hireDate": "2025-06-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Ron-capa-e1761251352232.jpg",
+  "photo": "assets/photos/779.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -236,7 +236,7 @@
   "title": "Machine Operator",
   "department": "",
   "hireDate": "2025-05-14",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Destinee-Noble-e1760632983406.jpg",
+  "photo": "assets/photos/747.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -247,7 +247,7 @@
   "title": "Brand Media Producer",
   "department": "Marketing",
   "hireDate": "2025-04-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-01.png",
+  "photo": "assets/photos/343.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -269,7 +269,7 @@
   "title": "Prototype Machinist",
   "department": "New Product Development",
   "hireDate": "2025-03-31",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Mike-LaRocque-e1759341576335.jpg",
+  "photo": "assets/photos/334.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -280,7 +280,7 @@
   "title": "EHS Manager",
   "department": "Human Resources",
   "hireDate": "2025-03-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-23.png",
+  "photo": "assets/photos/329.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -302,7 +302,7 @@
   "title": "Administrative Assistant",
   "department": "Business Development",
   "hireDate": "2025-03-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Iris-Rodriguez-e1761245488791.jpg",
+  "photo": "assets/photos/340.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -324,7 +324,7 @@
   "title": "Quality Control Technician",
   "department": "Quality",
   "hireDate": "2025-03-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-14.png",
+  "photo": "assets/photos/333.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -335,7 +335,7 @@
   "title": "Production Specialist",
   "department": "Machine Shop",
   "hireDate": "2025-03-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Patrick-Burns-e1761251017267.jpg",
+  "photo": "assets/photos/351.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -346,7 +346,7 @@
   "title": "Accounts Receivable Specialist",
   "department": "Accounting",
   "hireDate": "2025-02-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Shelby-Earl-e1761252134264.jpg",
+  "photo": "assets/photos/322.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -357,7 +357,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2025-02-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/09/Al-Luna-e1757960151865.jpg",
+  "photo": "assets/photos/324.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -368,7 +368,7 @@
   "title": "Shipping Specialist",
   "department": "Shipping & Receiving",
   "hireDate": "2025-01-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Ray-Santa-Morales-e1761251149847.jpg",
+  "photo": "assets/photos/319.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -379,7 +379,7 @@
   "title": "Sr. Manager, Soft Goods & Apparel",
   "department": "Ecommerce",
   "hireDate": "2025-01-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-4-scaled.jpg",
+  "photo": "assets/photos/310.jpg",
   "service": "Marines",
   "featured": false,
   "birthday": false
@@ -390,7 +390,7 @@
   "title": "Sales Support Associate",
   "department": "Customer Service",
   "hireDate": "2025-01-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Jeremy-Thompson-e1761249092384.jpg",
+  "photo": "assets/photos/311.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -412,7 +412,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2025-01-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Tommy-Dennie-e1761252221284.jpg",
+  "photo": "assets/photos/314.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -434,7 +434,7 @@
   "title": "Gun Assembler I",
   "department": "Gun Shop",
   "hireDate": "2024-12-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Seth-Hughes-e1761252011394.jpg",
+  "photo": "assets/photos/305.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -445,7 +445,7 @@
   "title": "Staccato Experience Specialist I",
   "department": "Gun Shop",
   "hireDate": "2024-12-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Justin-Kenney-e1761250081792.jpg",
+  "photo": "assets/photos/303.jpg",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -456,7 +456,7 @@
   "title": "Jr. Production Planner",
   "department": "Machine Shop",
   "hireDate": "2024-11-25",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Drew-Loy-e1761245307470.jpg",
+  "photo": "assets/photos/298.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -467,7 +467,7 @@
   "title": "General Manager",
   "department": "Business Development",
   "hireDate": "2024-11-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-76.png",
+  "photo": "assets/photos/299.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -478,7 +478,7 @@
   "title": "Shipping and Receiving Specialist",
   "department": "Shipping & Receiving",
   "hireDate": "2024-11-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/09/Cameron-Parsons-e1757962410351.jpg",
+  "photo": "assets/photos/300.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -489,7 +489,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2024-10-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-7-scaled.jpg",
+  "photo": "assets/photos/296.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -511,7 +511,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2024-10-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/caleb-c-e1761254651198.jpg",
+  "photo": "assets/photos/295.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -522,7 +522,7 @@
   "title": "Visual Designer",
   "department": "Marketing",
   "hireDate": "2024-10-14",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-26.png",
+  "photo": "assets/photos/293.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -533,7 +533,7 @@
   "title": "Customer Experience Coordinator",
   "department": "",
   "hireDate": "2024-09-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Staccato-Employee-Headshots-Square-May-21-6-scaled.jpg",
+  "photo": "assets/photos/289.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -544,7 +544,7 @@
   "title": "Business Development Associate",
   "department": "Business Development",
   "hireDate": "2024-09-23",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-04.png",
+  "photo": "assets/photos/285.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -555,7 +555,7 @@
   "title": "Lobby Concierge",
   "department": "Customer Service",
   "hireDate": "2024-09-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Leah-Morrison-e1761250545317.jpg",
+  "photo": "assets/photos/280.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -577,7 +577,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2024-08-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Employee-Headshots-May-13th-Square-6.jpg",
+  "photo": "assets/photos/274.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -599,7 +599,7 @@
   "title": "Senior Payroll Manager",
   "department": "Human Resources",
   "hireDate": "2024-07-31",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Stacey-Lee.jpg",
+  "photo": "assets/photos/276.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -610,7 +610,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2024-07-22",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/09/Charles-Scott-e1757962636296.jpg",
+  "photo": "assets/photos/268.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -621,7 +621,7 @@
   "title": "IT Admin",
   "department": "IT",
   "hireDate": "2024-07-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-51.png",
+  "photo": "assets/photos/718.png",
   "service": "Marines",
   "featured": false,
   "birthday": false
@@ -643,7 +643,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2024-07-08",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Peter-Ahumada-e1761251078907.jpg",
+  "photo": "assets/photos/251.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -665,7 +665,7 @@
   "title": "Range Support Specialist",
   "department": "Business Development",
   "hireDate": "2024-07-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Ron-Gallegos-e1761251477316.jpg",
+  "photo": "assets/photos/255.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -676,7 +676,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2024-07-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/08/Employee-Photos-31-e1761248388146.jpg",
+  "photo": "assets/photos/257.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -709,7 +709,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2024-06-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Krystal-Kellog-e1761250312205.jpg",
+  "photo": "assets/photos/249.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -731,7 +731,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2024-05-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/ImgStream-4.png",
+  "photo": "assets/photos/240.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -764,7 +764,7 @@
   "title": "Gun Assembler/Finals",
   "department": "Gun Shop",
   "hireDate": "2024-05-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-26-scaled.jpg",
+  "photo": "assets/photos/252.jpg",
   "service": "Marines",
   "featured": false,
   "birthday": false
@@ -775,7 +775,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2024-05-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Staccato-Employee-Headshots-Square-May-21-4-scaled.jpg",
+  "photo": "assets/photos/233.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -786,7 +786,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2024-05-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Employee-Headshots-May-13th-Square-4-e1778789997947.jpg",
+  "photo": "assets/photos/234.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -797,7 +797,7 @@
   "title": "Ammo Loader I",
   "department": "Machine Shop",
   "hireDate": "2024-05-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-21-scaled.jpg",
+  "photo": "assets/photos/348.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -808,7 +808,7 @@
   "title": "Lead Video Editor",
   "department": "Marketing",
   "hireDate": "2024-05-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-24.png",
+  "photo": "assets/photos/230.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -852,7 +852,7 @@
   "title": "Test Fire Specialist I",
   "department": "Coating",
   "hireDate": "2024-04-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-1.42.27-PM.png",
+  "photo": "assets/photos/220.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -874,7 +874,7 @@
   "title": "Sr. Process Engineer",
   "department": "Engineering",
   "hireDate": "2024-04-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/ImgStream.png",
+  "photo": "assets/photos/227.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -885,7 +885,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2024-03-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Samantha.jpg",
+  "photo": "assets/photos/213.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -896,7 +896,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2024-03-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-20-scaled.jpg",
+  "photo": "assets/photos/214.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -907,7 +907,7 @@
   "title": "Customer Experience Representative",
   "department": "Customer Service",
   "hireDate": "2024-03-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Johnah.jpg",
+  "photo": "assets/photos/215.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -918,7 +918,7 @@
   "title": "Range Support Lead",
   "department": "Business Development",
   "hireDate": "2024-03-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Josh-Luna-e1761249903337.jpg",
+  "photo": "assets/photos/223.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -929,7 +929,7 @@
   "title": "Gun Assembler/Finals",
   "department": "Gun Shop",
   "hireDate": "2024-02-26",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-1.04.26-PM.png",
+  "photo": "assets/photos/210.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -940,7 +940,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2024-02-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-1.03.02-PM.png",
+  "photo": "assets/photos/206.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -962,7 +962,7 @@
   "title": "Gun Assembler I",
   "department": "Gun Shop",
   "hireDate": "2024-01-29",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-9-scaled.jpg",
+  "photo": "assets/photos/205.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -973,7 +973,7 @@
   "title": "Gun Production Specialist II",
   "department": "",
   "hireDate": "2024-01-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Employee-Headshots-May-13th-Square-1-e1778789732736.jpg",
+  "photo": "assets/photos/201.jpg",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -984,7 +984,7 @@
   "title": "Senior Customer Support",
   "department": "Customer Service",
   "hireDate": "2023-12-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Johnny.jpg",
+  "photo": "assets/photos/199.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -995,7 +995,7 @@
   "title": "Cold Header Operator",
   "department": "Machine Shop",
   "hireDate": "2023-12-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Ryan-Peterson-e1761251631916.jpg",
+  "photo": "assets/photos/336.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1006,7 +1006,7 @@
   "title": "Business Analyst",
   "department": "IT",
   "hireDate": "2023-11-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/ImgStream-3.png",
+  "photo": "assets/photos/195.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1017,7 +1017,7 @@
   "title": "Lathe Operator",
   "department": "Machine Shop",
   "hireDate": "2023-11-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09346.jpg",
+  "photo": "assets/photos/297.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1028,7 +1028,7 @@
   "title": "Lathe Operator",
   "department": "Machine Shop",
   "hireDate": "2023-11-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09342.jpg",
+  "photo": "assets/photos/306.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1039,7 +1039,7 @@
   "title": "Quality Assurance Technician",
   "department": "Quality",
   "hireDate": "2023-10-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09403.jpg",
+  "photo": "assets/photos/192.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1050,7 +1050,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-10-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09243.jpg",
+  "photo": "assets/photos/279.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1061,7 +1061,7 @@
   "title": "Quality Assurance Specialist",
   "department": "Gun Shop",
   "hireDate": "2023-10-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09027.jpg",
+  "photo": "assets/photos/190.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1072,7 +1072,7 @@
   "title": "Blasting and Coating Technician",
   "department": "Coating",
   "hireDate": "2023-09-29",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09509.jpg",
+  "photo": "assets/photos/189.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1083,7 +1083,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2023-09-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09539.jpg",
+  "photo": "assets/photos/185.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1094,7 +1094,7 @@
   "title": "Business Development Associate",
   "department": "Business Development",
   "hireDate": "2023-09-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Riley-Kropff-e1761251214749.jpg",
+  "photo": "assets/photos/186.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1105,7 +1105,7 @@
   "title": "Senior Customer Support",
   "department": "Customer Service",
   "hireDate": "2023-09-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09624.jpg",
+  "photo": "assets/photos/183.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1116,7 +1116,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2023-09-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09208.jpg",
+  "photo": "assets/photos/182.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1127,7 +1127,7 @@
   "title": "Amorer Instructor",
   "department": "Sales – LEO",
   "hireDate": "2023-09-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09050.jpg",
+  "photo": "assets/photos/184.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1138,7 +1138,7 @@
   "title": "Blasting and Coating Technician",
   "department": "Coating",
   "hireDate": "2023-08-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09608.jpg",
+  "photo": "assets/photos/180.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1149,7 +1149,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-08-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09262.jpg",
+  "photo": "assets/photos/254.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1160,7 +1160,7 @@
   "title": "Inventory Control Specialist",
   "department": "Purchasing",
   "hireDate": "2023-08-23",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Samantha-Thomas-e1761251799681.jpg",
+  "photo": "assets/photos/179.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1171,7 +1171,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2023-08-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09532.jpg",
+  "photo": "assets/photos/175.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1182,7 +1182,7 @@
   "title": "Testing Technician II",
   "department": "New Product Development",
   "hireDate": "2023-08-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Derek-Horne-e1761245224257.jpg",
+  "photo": "assets/photos/176.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1193,7 +1193,7 @@
   "title": "Gunsmith",
   "department": "Gun Shop",
   "hireDate": "2023-08-07",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09036.jpg",
+  "photo": "assets/photos/173.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1204,7 +1204,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-07-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09259.jpg",
+  "photo": "assets/photos/168.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1215,7 +1215,7 @@
   "title": "Chief Financial Officer",
   "department": "Accounting",
   "hireDate": "2023-07-17",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Peter.jpg",
+  "photo": "assets/photos/160.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1226,7 +1226,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2023-07-10",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09318.jpg",
+  "photo": "assets/photos/159.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1237,7 +1237,7 @@
   "title": "Blasting and Coating Technician",
   "department": "Coating",
   "hireDate": "2023-07-10",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09101.jpg",
+  "photo": "assets/photos/163.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1248,7 +1248,7 @@
   "title": "Stockroom Supervisor",
   "department": "Shipping & Receiving",
   "hireDate": "2023-07-10",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Katie-Schiele-e1761250196903.jpg",
+  "photo": "assets/photos/164.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1259,7 +1259,7 @@
   "title": "Design Engineer",
   "department": "New Product Development",
   "hireDate": "2023-07-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09077.jpg",
+  "photo": "assets/photos/147.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1270,7 +1270,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2023-06-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09538.jpg",
+  "photo": "assets/photos/162.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1281,7 +1281,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-06-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09256.jpg",
+  "photo": "assets/photos/246.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1292,7 +1292,7 @@
   "title": "Design Engineer",
   "department": "New Product Development",
   "hireDate": "2023-06-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09080.jpg",
+  "photo": "assets/photos/152.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1303,7 +1303,7 @@
   "title": "Design Engineer",
   "department": "New Product Development",
   "hireDate": "2023-06-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09084.jpg",
+  "photo": "assets/photos/153.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1314,7 +1314,7 @@
   "title": "Business Operations Accountant",
   "department": "Accounting",
   "hireDate": "2023-05-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09682.jpg",
+  "photo": "assets/photos/146.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1325,7 +1325,7 @@
   "title": "Link & Time Specialist",
   "department": "Gun Shop",
   "hireDate": "2023-04-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09168.jpg",
+  "photo": "assets/photos/142.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1336,7 +1336,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2023-04-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09024.jpg",
+  "photo": "assets/photos/144.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1347,7 +1347,7 @@
   "title": "Manufacturing Manager",
   "department": "Machine Shop",
   "hireDate": "2023-04-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09365.jpg",
+  "photo": "assets/photos/203.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1358,7 +1358,7 @@
   "title": "Landscaping Technician",
   "department": "Facilities",
   "hireDate": "2023-03-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Unknown_3.jpg",
+  "photo": "assets/photos/191.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1369,7 +1369,7 @@
   "title": "Property Maintenance Manager, WS Campus",
   "department": "Machine Shop",
   "hireDate": "2023-03-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/ImgStream-10.png",
+  "photo": "assets/photos/196.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1380,7 +1380,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-03-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09246.jpg",
+  "photo": "assets/photos/177.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1391,7 +1391,7 @@
   "title": "Production Associate",
   "department": "Machine Shop",
   "hireDate": "2023-03-20",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09336.jpg",
+  "photo": "assets/photos/169.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1402,7 +1402,7 @@
   "title": "Customer Support Supervisor",
   "department": "Customer Service",
   "hireDate": "2023-02-20",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Justice.jpg",
+  "photo": "assets/photos/138.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1413,7 +1413,7 @@
   "title": "Director of Federal LE",
   "department": "Sales – LEO",
   "hireDate": "2023-02-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Mike.jpg",
+  "photo": "assets/photos/137.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1424,7 +1424,7 @@
   "title": "Director Ammunition Operations",
   "department": "Machine Shop",
   "hireDate": "2023-02-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Staccato-Employee-Headshot-Square-27-scaled.jpg",
+  "photo": "assets/photos/143.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1435,7 +1435,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2023-02-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09240.jpg",
+  "photo": "assets/photos/149.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1446,7 +1446,7 @@
   "title": "Gunsmith",
   "department": "Gun Shop",
   "hireDate": "2023-02-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09428.jpg",
+  "photo": "assets/photos/136.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1457,7 +1457,7 @@
   "title": "Marketing Specialist, Brand",
   "department": "Marketing",
   "hireDate": "2022-12-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Michelle.jpg",
+  "photo": "assets/photos/134.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1468,7 +1468,7 @@
   "title": "Sr. VP of Government Programs",
   "department": "Sales – LEO",
   "hireDate": "2022-11-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/07/JB-Barr.jpg",
+  "photo": "assets/photos/131.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1479,7 +1479,7 @@
   "title": "Testing Technician I",
   "department": "New Product Development",
   "hireDate": "2022-09-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/JC-Schutz-e1761248454811.jpg",
+  "photo": "assets/photos/129.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1490,7 +1490,7 @@
   "title": "CNC Operator II",
   "department": "Machine Shop",
   "hireDate": "2022-08-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09135.jpg",
+  "photo": "assets/photos/126.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1501,7 +1501,7 @@
   "title": "Quality Assurance Lead",
   "department": "Gun Shop",
   "hireDate": "2022-07-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09381.jpg",
+  "photo": "assets/photos/123.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1512,7 +1512,7 @@
   "title": "VP of New Product Creation",
   "department": "New Product Development",
   "hireDate": "2022-06-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Paul.jpg",
+  "photo": "assets/photos/124.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1523,7 +1523,7 @@
   "title": "Blasting and Coating Technician I",
   "department": "Coating",
   "hireDate": "2022-06-26",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09098.jpg",
+  "photo": "assets/photos/120.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1534,7 +1534,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2022-06-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Jorge-Lopez-e1761249741355.jpg",
+  "photo": "assets/photos/117.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1545,7 +1545,7 @@
   "title": "Production Planner",
   "department": "Machine Shop",
   "hireDate": "2022-06-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09644.jpg",
+  "photo": "assets/photos/119.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1556,7 +1556,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2022-06-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09021.jpg",
+  "photo": "assets/photos/115.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1567,7 +1567,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2022-05-31",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09324.jpg",
+  "photo": "assets/photos/114.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1578,7 +1578,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2022-05-26",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09059.jpg",
+  "photo": "assets/photos/113.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1589,7 +1589,7 @@
   "title": "Testing & Validation Engineer",
   "department": "New Product Development",
   "hireDate": "2022-05-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09412.jpg",
+  "photo": "assets/photos/106.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1600,7 +1600,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2022-05-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09125.jpg",
+  "photo": "assets/photos/110.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1611,7 +1611,7 @@
   "title": "R&D Design Engineer",
   "department": "New Product Development",
   "hireDate": "2022-05-02",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09421.jpg",
+  "photo": "assets/photos/111.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1622,7 +1622,7 @@
   "title": "Director of People Operations",
   "department": "Human Resources",
   "hireDate": "2022-04-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09925.jpg",
+  "photo": "assets/photos/108.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1633,7 +1633,7 @@
   "title": "Short Block & Finish Slide Lead",
   "department": "Machine Shop",
   "hireDate": "2022-04-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09171.jpg",
+  "photo": "assets/photos/109.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1655,7 +1655,7 @@
   "title": "Blasting and Coating Technician",
   "department": "Coating",
   "hireDate": "2022-04-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09089.jpg",
+  "photo": "assets/photos/105.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1666,7 +1666,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2022-03-14",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09164.jpg",
+  "photo": "assets/photos/103.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1677,7 +1677,7 @@
   "title": "Director of Customer Experience & Loyalty",
   "department": "Customer Service",
   "hireDate": "2022-02-28",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Theresa-Bauer-e1777312382182.png",
+  "photo": "assets/photos/101.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1688,7 +1688,7 @@
   "title": "Website Administrator",
   "department": "Ecommerce",
   "hireDate": "2021-12-14",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09957.jpg",
+  "photo": "assets/photos/98.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1699,7 +1699,7 @@
   "title": "CNC Operator",
   "department": "Machine Shop",
   "hireDate": "2021-11-29",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09300.jpg",
+  "photo": "assets/photos/95.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1710,7 +1710,7 @@
   "title": "Small Parts Lead",
   "department": "Machine Shop",
   "hireDate": "2021-11-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09199.jpg",
+  "photo": "assets/photos/96.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1721,7 +1721,7 @@
   "title": "Blasting and Coating Technician",
   "department": "Coating",
   "hireDate": "2021-09-29",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09092.jpg",
+  "photo": "assets/photos/92.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1732,7 +1732,7 @@
   "title": "Warranty Specialist",
   "department": "Warranty",
   "hireDate": "2021-09-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09621.jpg",
+  "photo": "assets/photos/89.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1743,7 +1743,7 @@
   "title": "Customer Support Coordinator",
   "department": "Customer Service",
   "hireDate": "2021-07-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/KG.jpg",
+  "photo": "assets/photos/86.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1754,7 +1754,7 @@
   "title": "EVP, Staccato D,D&C",
   "department": "Administrative",
   "hireDate": "2021-07-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09368.jpg",
+  "photo": "assets/photos/73.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1765,7 +1765,7 @@
   "title": "Laser Engraving and Design Specialist",
   "department": "Machine Shop",
   "hireDate": "2021-06-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09591.jpg",
+  "photo": "assets/photos/87.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1776,7 +1776,7 @@
   "title": "Marketing Coordinator",
   "department": "Marketing",
   "hireDate": "2021-06-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Tom.jpg",
+  "photo": "assets/photos/79.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1787,7 +1787,7 @@
   "title": "Finish Slideline Lead",
   "department": "Machine Shop",
   "hireDate": "2021-05-25",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09141.jpg",
+  "photo": "assets/photos/82.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1798,7 +1798,7 @@
   "title": "Gun Builder Level II",
   "department": "Gun Shop",
   "hireDate": "2021-05-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09062.jpg",
+  "photo": "assets/photos/81.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1809,7 +1809,7 @@
   "title": "Facilities and Maintenance Technician",
   "department": "Facilities",
   "hireDate": "2021-05-10",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09600.jpg",
+  "photo": "assets/photos/80.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1820,7 +1820,7 @@
   "title": "Customer Support Quality Analyst",
   "department": "Customer Service",
   "hireDate": "2021-03-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09627.jpg",
+  "photo": "assets/photos/75.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1831,7 +1831,7 @@
   "title": "Shift Supervisor, Machine Shop",
   "department": "Machine Shop",
   "hireDate": "2021-02-08",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09303.jpg",
+  "photo": "assets/photos/74.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1842,7 +1842,7 @@
   "title": "Director of Digital Experience",
   "department": "Ecommerce",
   "hireDate": "2020-11-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09667.jpg",
+  "photo": "assets/photos/72.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1853,7 +1853,7 @@
   "title": "Blasting and Coating Technician I",
   "department": "Coating",
   "hireDate": "2020-10-09",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09306.jpg",
+  "photo": "assets/photos/71.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1864,7 +1864,7 @@
   "title": "Supply Chain Manager",
   "department": "Purchasing",
   "hireDate": "2020-10-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09187.jpg",
+  "photo": "assets/photos/70.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1875,7 +1875,7 @@
   "title": "Lead Gunsmith, 2nd Shift",
   "department": "Gun Shop",
   "hireDate": "2020-09-08",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09314.jpg",
+  "photo": "assets/photos/107.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1886,7 +1886,7 @@
   "title": "Frame & Slide Supervisor",
   "department": "Machine Shop",
   "hireDate": "2020-08-31",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09116.jpg",
+  "photo": "assets/photos/100.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1897,7 +1897,7 @@
   "title": "Gun Assembler",
   "department": "Gun Shop",
   "hireDate": "2020-08-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09321.jpg",
+  "photo": "assets/photos/97.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1908,7 +1908,7 @@
   "title": "LE Sales Associate",
   "department": "Customer Service",
   "hireDate": "2020-07-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09671.jpg",
+  "photo": "assets/photos/88.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1919,7 +1919,7 @@
   "title": "CNC Operator Level II",
   "department": "Machine Shop",
   "hireDate": "2020-07-07",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09522.jpg",
+  "photo": "assets/photos/69.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1930,7 +1930,7 @@
   "title": "Warranty Gunsmith",
   "department": "Warranty",
   "hireDate": "2020-05-25",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09064.jpg",
+  "photo": "assets/photos/156.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1941,7 +1941,7 @@
   "title": "Facilities and Maintenance Technician",
   "department": "Facilities",
   "hireDate": "2020-04-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-1.02.18-PM.png",
+  "photo": "assets/photos/368.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1952,7 +1952,7 @@
   "title": "Small Parts/Weekend Lead",
   "department": "Machine Shop",
   "hireDate": "2020-04-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09535.jpg",
+  "photo": "assets/photos/385.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1963,7 +1963,7 @@
   "title": "Finals Lead",
   "department": "Gun Shop",
   "hireDate": "2020-03-09",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/ImgStream-6.png",
+  "photo": "assets/photos/225.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1974,7 +1974,7 @@
   "title": "Coating Packaging Clerk",
   "department": "Coating",
   "hireDate": "2019-11-25",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09209.jpg",
+  "photo": "assets/photos/381.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1985,7 +1985,7 @@
   "title": "Receiving Specialist",
   "department": "Purchasing",
   "hireDate": "2019-11-18",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09444.jpg",
+  "photo": "assets/photos/395.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -1996,7 +1996,7 @@
   "title": "Experience Team Leader",
   "department": "Business Development",
   "hireDate": "2019-08-05",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-85.png",
+  "photo": "assets/photos/359.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2007,7 +2007,7 @@
   "title": "Gun Shop Lead",
   "department": "Gun Shop",
   "hireDate": "2019-07-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09013.jpg",
+  "photo": "assets/photos/367.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2018,7 +2018,7 @@
   "title": "Inventory Supervisor",
   "department": "Inventory",
   "hireDate": "2019-06-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09431.jpg",
+  "photo": "assets/photos/387.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2029,7 +2029,7 @@
   "title": "Automation Technician I",
   "department": "Engineering",
   "hireDate": "2019-05-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09596.jpg",
+  "photo": "assets/photos/371.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2040,7 +2040,7 @@
   "title": "CNC Operator Level II",
   "department": "Machine Shop",
   "hireDate": "2019-03-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09119.jpg",
+  "photo": "assets/photos/393.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2051,7 +2051,7 @@
   "title": "Facilities Manager",
   "department": "Facilities",
   "hireDate": "2019-01-09",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/07/Petty.jpg",
+  "photo": "assets/photos/398.jpg",
   "service": "Marines",
   "featured": false,
   "birthday": false
@@ -2062,7 +2062,7 @@
   "title": "IT Manager",
   "department": "IT",
   "hireDate": "2018-05-23",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/10/Dale-Little-e1761244704570.jpg",
+  "photo": "assets/photos/389.jpg",
   "service": "Army",
   "featured": false,
   "birthday": false
@@ -2084,7 +2084,7 @@
   "title": "Packaging Specialist",
   "department": "Shipping & Receiving",
   "hireDate": "2017-06-26",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Maria-Gonzalez-e1761250787128.jpg",
+  "photo": "assets/photos/370.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2095,7 +2095,7 @@
   "title": "Warranty",
   "department": "Warranty",
   "hireDate": "2017-02-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Staccato-Employee-Headshot-Square-14-scaled.jpg",
+  "photo": "assets/photos/374.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2106,7 +2106,7 @@
   "title": "Continuous Improvement Specialist",
   "department": "Engineering",
   "hireDate": "2016-09-19",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09449.jpg",
+  "photo": "assets/photos/392.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2117,7 +2117,7 @@
   "title": "Gun Assembler II",
   "department": "Gun Shop",
   "hireDate": "2016-08-22",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09041.jpg",
+  "photo": "assets/photos/390.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2128,7 +2128,7 @@
   "title": "Chairman of the Board",
   "department": "",
   "hireDate": "2016-05-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-1.11.47-PM.png",
+  "photo": "assets/photos/897.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2139,7 +2139,7 @@
   "title": "System Manager / Data Analyst",
   "department": "IT",
   "hireDate": "2016-05-03",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-12.55.48-PM.png",
+  "photo": "assets/photos/380.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2150,7 +2150,7 @@
   "title": "Manager, Ecommerce Merchandising",
   "department": "Ecommerce",
   "hireDate": "2016-02-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09659.jpg",
+  "photo": "assets/photos/362.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2161,7 +2161,7 @@
   "title": "Director of Operations",
   "department": "Operations",
   "hireDate": "2015-06-11",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09196.jpg",
+  "photo": "assets/photos/379.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2172,7 +2172,7 @@
   "title": "Gun Shop Director",
   "department": "Operations",
   "hireDate": "2013-07-25",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09072.jpg",
+  "photo": "assets/photos/358.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2183,7 +2183,7 @@
   "title": "CNC Operator Level IV - Lead",
   "department": "Machine Shop",
   "hireDate": "2013-02-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Val-e1761252615360.jpg",
+  "photo": "assets/photos/391.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2194,7 +2194,7 @@
   "title": "Shipping Specialist",
   "department": "Shipping & Receiving",
   "hireDate": "2013-02-04",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-28.png",
+  "photo": "assets/photos/357.png",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2205,7 +2205,7 @@
   "title": "Director of Production",
   "department": "Administrative",
   "hireDate": "2013-01-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09237.jpg",
+  "photo": "assets/photos/121.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2216,7 +2216,7 @@
   "title": "Link & Time Specialist II",
   "department": "Gun Shop",
   "hireDate": "2011-09-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/S2_09587.jpg",
+  "photo": "assets/photos/360.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2238,7 +2238,7 @@
   "title": "Manufacturing Manager",
   "department": "Machine Shop",
   "hireDate": "2011-06-27",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09193.jpg",
+  "photo": "assets/photos/377.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2249,7 +2249,7 @@
   "title": "Manager, Warranty Services",
   "department": "Warranty",
   "hireDate": "2011-06-13",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09235.jpg",
+  "photo": "assets/photos/365.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2260,7 +2260,7 @@
   "title": "Manager, Design Engineer",
   "department": "New Product Development",
   "hireDate": "2010-08-30",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09081.jpg",
+  "photo": "assets/photos/384.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2271,7 +2271,7 @@
   "title": "Team Lead Blasting and Coating",
   "department": "Coating",
   "hireDate": "2009-07-06",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09309.jpg",
+  "photo": "assets/photos/376.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2282,7 +2282,7 @@
   "title": "Continuous Improvement Specialist",
   "department": "",
   "hireDate": "2008-07-21",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09452.jpg",
+  "photo": "assets/photos/386.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2304,7 +2304,7 @@
   "title": "CNC Operator Level II",
   "department": "Machine Shop",
   "hireDate": "2008-05-12",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09214.jpg",
+  "photo": "assets/photos/372.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2315,7 +2315,7 @@
   "title": "Gun Builder IV",
   "department": "Gun Shop",
   "hireDate": "2006-10-10",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09051.jpg",
+  "photo": "assets/photos/354.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2326,7 +2326,7 @@
   "title": "Coating Department Manager",
   "department": "Operations",
   "hireDate": "2004-03-15",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09110.jpg",
+  "photo": "assets/photos/352.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2337,7 +2337,7 @@
   "title": "Continuous Improvement Manager",
   "department": "Engineering",
   "hireDate": "1998-05-26",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09440.jpg",
+  "photo": "assets/photos/355.jpg",
   "service": null,
   "featured": false,
   "birthday": false
@@ -2348,7 +2348,7 @@
   "title": "Master Gunsmith",
   "department": "Operations",
   "hireDate": "1995-03-16",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09045.jpg",
+  "photo": "assets/photos/353.jpg",
   "service": null,
   "featured": false,
   "birthday": false

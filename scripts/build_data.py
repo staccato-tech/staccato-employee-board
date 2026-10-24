@@ -2,7 +2,7 @@
 """Convert a WordPress export (Tools > Export) from the old Employee Board
 into the JSON files this site reads.
 
-    python3 scripts/build_data.py path/to/export.xml
+    uv run scripts/build_data.py path/to/export.xml
 
 Writes data/employees.json and data/bulletins.json.
 """

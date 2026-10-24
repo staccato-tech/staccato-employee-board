@@ -1,0 +1,14 @@
+[project]
+name = "staccato-employee-board"
+version = "0.1.0"
+description = "Content and photo archive tools for the Staccato Employee Board"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "azure-storage-blob>=12.31.0",
+    "pillow>=13.0.0",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.uv]
+package = false

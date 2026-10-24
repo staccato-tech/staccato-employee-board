@@ -4,9 +4,12 @@ and point data/employees.json at the local copies, so the new site no longer
 depends on WP Engine. Run this once from the repo root on a machine that can
 reach the old site:
 
-    python3 scripts/localize_photos.py
+    uv run scripts/localize_photos.py
 """
 import json, urllib.request, pathlib, sys
+opener = urllib.request.build_opener()
+opener.addheaders = [('User-Agent', 'Mozilla/5.0')]
+urllib.request.install_opener(opener)
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 data = ROOT / 'data/employees.json'
 out = ROOT / 'assets/photos'; out.mkdir(parents=True, exist_ok=True)
@@ -20,7 +23,7 @@ for e in emps:
     try:
         if not dest.exists():
             urllib.request.urlretrieve(url, dest)
-        e['photo'] = str(dest.relative_to(ROOT)); ok += 1
+        e['photo'] = dest.relative_to(ROOT).as_posix(); ok += 1
     except Exception as ex:
         print('skip', e['name'], ex, file=sys.stderr); fail += 1
 data.write_text(json.dumps(emps, indent=1, ensure_ascii=False))

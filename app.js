@@ -260,8 +260,21 @@
   Promise.all([
     fetch('data/employees.json').then(r => r.json()),
     fetch('data/bulletins.json').then(r => r.json()).catch(() => []),
-  ]).then(([emps, bulletins]) => {
-    employees = emps;
+    fetch('data/config.json').then(r => {
+      if (!r.ok) throw new Error('Could not load public photo configuration');
+      return r.json();
+    }),
+  ]).then(([emps, bulletins, config]) => {
+    const localPhotos = params.get('photos') === 'local';
+    const base = config.photoWebUrl.replace(/\/+$/, '');
+    const prefix = config.photoPrefix.replace(/^\/+|\/+$/g, '');
+    employees = emps.map(e => {
+      if (!e.photo || !e.photo.replace(/\\/g, '/').startsWith('assets/photos/')) return e;
+      const sourceFilename = e.photo.replace(/\\/g, '/').slice('assets/photos/'.length);
+      const filename = sourceFilename.replace(/\.[^.]+$/, config.photoExtension || '.webp');
+      return { ...e, photo: localPhotos ? `${config.photoLocalPath || 'assets/photos-rendered/'}${filename}`
+        : `${base}/${prefix}/${encodeURIComponent(filename)}` };
+    });
     queue = byNewest(employees);  // board order: newest hire first, longest tenure last
     $('#headcount').textContent = employees.length;
     renderMilestones();

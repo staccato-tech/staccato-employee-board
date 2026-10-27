@@ -32,11 +32,14 @@ To edit content, change the JSON and commit. GitHub Pages redeploys in about a m
 
 This script also cleans up department names. For example, `910 - OPS- Machine Shop` becomes `Machine Shop`, and stray numeric IDs are removed.
 
-### Photos
+### Photos (Azure Blob Storage)
 
-Photos still point at the old WP Engine media library. To copy them into this repo so the site doesn't depend on WP Engine anymore, run:
+Photos are hosted in Azure Blob Storage. To move any images still on the old WP Engine site into Azure and repoint the data files, run:
 
-    python3 scripts/localize_photos.py
+    az login
+    python3 scripts/migrate_photos_to_azure.py --account <storage-account>
+
+For a new employee photo, upload it to the `employees/` folder in the container and put its blob URL in that person's `photo` field.
 
 ## Run locally
 

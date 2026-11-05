@@ -1,3 +1,6 @@
 .DS_Store
 *.xml
 _migrate/
+__pycache__/
+*.pyc
+*.xlsx

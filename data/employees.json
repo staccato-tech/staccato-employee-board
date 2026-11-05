@@ -1,5 +1,137 @@
 [
  {
+  "id": 900036,
+  "name": "John King",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-10-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "12-01"
+ },
+ {
+  "id": 900004,
+  "name": "Kinsey Beck",
+  "title": "Member Onboarding  & Retention Coordinator",
+  "department": "",
+  "hireDate": "2026-10-07",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-31"
+ },
+ {
+  "id": 900072,
+  "name": "Donald Williams",
+  "title": "SR VP of Quality and Safety",
+  "department": "",
+  "hireDate": "2026-09-28",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-22"
+ },
+ {
+  "id": 900055,
+  "name": "Faisal Saeed",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-09-23",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-22"
+ },
+ {
+  "id": 900037,
+  "name": "Joshua Lorenson",
+  "title": "Operations Manager",
+  "department": "",
+  "hireDate": "2026-09-21",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-13"
+ },
+ {
+  "id": 900051,
+  "name": "Aaron Powers",
+  "title": "Manufacturing Engineer",
+  "department": "",
+  "hireDate": "2026-09-21",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "09-23"
+ },
+ {
+  "id": 900074,
+  "name": "Robert Zimmerman",
+  "title": "Lead Design Engineer",
+  "department": "",
+  "hireDate": "2026-09-21",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "04-27"
+ },
+ {
+  "id": 900061,
+  "name": "Cedric Stevens",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-09-16",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-06"
+ },
+ {
+  "id": 900009,
+  "name": "Jon Canipe",
+  "title": "Director of Product Management",
+  "department": "",
+  "hireDate": "2026-09-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-21"
+ },
+ {
+  "id": 900022,
+  "name": "Carin Falconer",
+  "title": "Sr. VP Customer Experience",
+  "department": "",
+  "hireDate": "2026-09-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-19"
+ },
+ {
+  "id": 900073,
+  "name": "Javier Zapien",
+  "title": "Continuous Improvement Engineer",
+  "department": "",
+  "hireDate": "2026-09-08",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-14"
+ },
+ {
+  "id": 900029,
+  "name": "Daniel Heath",
+  "title": "Experience Leader/Firearm Instructor",
+  "department": "",
+  "hireDate": "2026-08-17",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-11"
+ },
+ {
   "id": 952,
   "name": "Shannon Smith",
   "title": "Competition Program Manager/STG Instructor",
@@ -9,6 +141,127 @@
   "service": null,
   "featured": false,
   "birthday": "07-20"
+ },
+ {
+  "id": 900032,
+  "name": "Logan Horner",
+  "title": "Production Specialist I",
+  "department": "",
+  "hireDate": "2026-07-27",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-16"
+ },
+ {
+  "id": 900017,
+  "name": "Joseph Dalida",
+  "title": "RSO/Instructor Services",
+  "department": "",
+  "hireDate": "2026-07-22",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "01-08"
+ },
+ {
+  "id": 900016,
+  "name": "Amanda Crusan",
+  "title": "Key Account Operatons Specialist",
+  "department": "",
+  "hireDate": "2026-07-13",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "11-11"
+ },
+ {
+  "id": 900054,
+  "name": "Michael Sacher",
+  "title": "Customer Support Technical Specialist",
+  "department": "",
+  "hireDate": "2026-07-13",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "10-03"
+ },
+ {
+  "id": 900007,
+  "name": "Jeffrey Button",
+  "title": "Vault Clerk",
+  "department": "",
+  "hireDate": "2026-07-06",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "12-25"
+ },
+ {
+  "id": 900018,
+  "name": "Trang Dam",
+  "title": "Sr. Director of Ecosystem Marketing",
+  "department": "",
+  "hireDate": "2026-07-06",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-26"
+ },
+ {
+  "id": 900019,
+  "name": "Christina Deocampo",
+  "title": "Recruiter",
+  "department": "",
+  "hireDate": "2026-06-30",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-18"
+ },
+ {
+  "id": 900028,
+  "name": "Thomas Hardt",
+  "title": "Sr. VP Supply Chain & Procurement",
+  "department": "",
+  "hireDate": "2026-06-30",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-21"
+ },
+ {
+  "id": 900059,
+  "name": "Cody Scott",
+  "title": "Firearms Sales & Buying Experience Specialist",
+  "department": "",
+  "hireDate": "2026-06-25",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "04-04"
+ },
+ {
+  "id": 900062,
+  "name": "Gary Stevens",
+  "title": "Marketing Consultant",
+  "department": "",
+  "hireDate": "2026-06-24",
+  "photo": null,
+  "service": "Air Force",
+  "featured": false,
+  "birthday": "08-19"
+ },
+ {
+  "id": 900025,
+  "name": "Chanler Graves",
+  "title": "Lathe Operator LHA",
+  "department": "",
+  "hireDate": "2026-06-17",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-16"
  },
  {
   "id": 938,
@@ -22,6 +275,61 @@
   "birthday": "01-15"
  },
  {
+  "id": 900056,
+  "name": "Everest Samter",
+  "title": "Marketing Coordinator",
+  "department": "",
+  "hireDate": "2026-06-08",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "04-14"
+ },
+ {
+  "id": 900060,
+  "name": "Trishan Singh",
+  "title": "Chief Technology Officer",
+  "department": "",
+  "hireDate": "2026-06-08",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "09-19"
+ },
+ {
+  "id": 900027,
+  "name": "Aaron Hansen",
+  "title": "Link and Time Specialist I",
+  "department": "",
+  "hireDate": "2026-06-01",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-07"
+ },
+ {
+  "id": 900006,
+  "name": "Lindsay Branton",
+  "title": "Ecommerce Fulfillment Specialist I",
+  "department": "",
+  "hireDate": "2026-05-18",
+  "photo": null,
+  "service": "Coast Guard",
+  "featured": false,
+  "birthday": "11-27"
+ },
+ {
+  "id": 900001,
+  "name": "Ryan Allison",
+  "title": "Gun Production Specialist I",
+  "department": "",
+  "hireDate": "2026-05-11",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "01-20"
+ },
+ {
   "id": 924,
   "name": "Zach Miles",
   "title": "Production Specialist II",
@@ -31,6 +339,28 @@
   "service": null,
   "featured": false,
   "birthday": "12-13"
+ },
+ {
+  "id": 900020,
+  "name": "Patrick Dougherty",
+  "title": "LE, Firearms Instructor",
+  "department": "",
+  "hireDate": "2026-04-28",
+  "photo": null,
+  "service": "Marines",
+  "featured": false,
+  "birthday": "06-20"
+ },
+ {
+  "id": 900070,
+  "name": "Lee Westfall",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-04-01",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-13"
  },
  {
   "id": 851,
@@ -55,6 +385,28 @@
   "birthday": "02-12"
  },
  {
+  "id": 900000,
+  "name": "Hayden Aldridge",
+  "title": "Retail Sales Associate",
+  "department": "",
+  "hireDate": "2026-03-25",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "10-15"
+ },
+ {
+  "id": 900039,
+  "name": "James Martin",
+  "title": "Retail Sales Associate",
+  "department": "",
+  "hireDate": "2026-03-25",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-30"
+ },
+ {
   "id": 864,
   "name": "Matt Leviner",
   "title": "Director of Marketing Operations",
@@ -66,6 +418,28 @@
   "birthday": "09-19"
  },
  {
+  "id": 900026,
+  "name": "Charles Hamm",
+  "title": "Shipping and Receiving Specialist",
+  "department": "",
+  "hireDate": "2026-03-23",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-16"
+ },
+ {
+  "id": 900068,
+  "name": "Brett Usilton",
+  "title": "Receiving and Inspection Clerk",
+  "department": "",
+  "hireDate": "2026-03-23",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-11"
+ },
+ {
   "id": 855,
   "name": "Nae Terry",
   "title": "Customer Experience Representative",
@@ -75,6 +449,50 @@
   "service": null,
   "featured": false,
   "birthday": "05-23"
+ },
+ {
+  "id": 900034,
+  "name": "Samantha Humphrey",
+  "title": "Driver",
+  "department": "",
+  "hireDate": "2026-03-09",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-16"
+ },
+ {
+  "id": 900058,
+  "name": "Scott Schwind",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-03-09",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-07"
+ },
+ {
+  "id": 900015,
+  "name": "Andrew Cogill",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-03-02",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-18"
+ },
+ {
+  "id": 900024,
+  "name": "Andon Gorbet",
+  "title": "Ranch Technician",
+  "department": "",
+  "hireDate": "2026-03-02",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-25"
  },
  {
   "id": 916,
@@ -99,6 +517,17 @@
   "birthday": "08-09"
  },
  {
+  "id": 900041,
+  "name": "Jeremy Morton",
+  "title": "Chief Customer Officer",
+  "department": "",
+  "hireDate": "2026-01-01",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-17"
+ },
+ {
   "id": 886,
   "name": "Joel Cooper",
   "title": "Customer Experience Technical Specialist",
@@ -121,6 +550,50 @@
   "birthday": null
  },
  {
+  "id": 900005,
+  "name": "Caleb Beltran",
+  "title": "Production Specialist I",
+  "department": "",
+  "hireDate": "2025-11-19",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-22"
+ },
+ {
+  "id": 900040,
+  "name": "Max Michel",
+  "title": "SVP, Shooting Sports and Training",
+  "department": "",
+  "hireDate": "2025-11-03",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "12-15"
+ },
+ {
+  "id": 900048,
+  "name": "Ethan Patton",
+  "title": "Pro-Shop Associate",
+  "department": "",
+  "hireDate": "2025-09-28",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-08"
+ },
+ {
+  "id": 900030,
+  "name": "Jay Helmick",
+  "title": "Chief Revenue Officer",
+  "department": "",
+  "hireDate": "2025-09-23",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "05-07"
+ },
+ {
   "id": 874,
   "name": "Vicente Orellana",
   "title": "Gun Production Specialist",
@@ -130,6 +603,28 @@
   "service": null,
   "featured": false,
   "birthday": null
+ },
+ {
+  "id": 900057,
+  "name": "Samuel Sanderford",
+  "title": "Technical Solutions Specialist",
+  "department": "",
+  "hireDate": "2025-09-22",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-13"
+ },
+ {
+  "id": 900071,
+  "name": "Nathan Wilkes",
+  "title": "Range Support Specialist",
+  "department": "",
+  "hireDate": "2025-09-17",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "01-28"
  },
  {
   "id": 859,
@@ -165,6 +660,39 @@
   "birthday": "11-17"
  },
  {
+  "id": 900021,
+  "name": "Jan Willem Driessen",
+  "title": "Chief Marketing Officer",
+  "department": "",
+  "hireDate": "2025-09-01",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-09"
+ },
+ {
+  "id": 900042,
+  "name": "Luke Moser",
+  "title": "Test Fire Specialist I",
+  "department": "",
+  "hireDate": "2025-07-28",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-04"
+ },
+ {
+  "id": 900047,
+  "name": "Christopher Palmer",
+  "title": "LE Trainer",
+  "department": "",
+  "hireDate": "2025-07-28",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-20"
+ },
+ {
   "id": 905,
   "name": "Katie Duvall",
   "title": "Administrative Assistant",
@@ -187,6 +715,17 @@
   "birthday": "04-18"
  },
  {
+  "id": 900046,
+  "name": "Hector Padilla",
+  "title": "Experience Team Member",
+  "department": "",
+  "hireDate": "2025-07-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "04-06"
+ },
+ {
   "id": 844,
   "name": "Skyler Jones",
   "title": "Graphic Designer",
@@ -196,6 +735,17 @@
   "service": null,
   "featured": false,
   "birthday": "07-14"
+ },
+ {
+  "id": 900035,
+  "name": "Braden Janke",
+  "title": "Machine Operator",
+  "department": "",
+  "hireDate": "2025-06-16",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-25"
  },
  {
   "id": 785,
@@ -218,6 +768,39 @@
   "service": null,
   "featured": false,
   "birthday": "11-13"
+ },
+ {
+  "id": 900033,
+  "name": "Alan Humphrey",
+  "title": "Operations Manager",
+  "department": "",
+  "hireDate": "2025-05-30",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-21"
+ },
+ {
+  "id": 900002,
+  "name": "Mitchell Amoriello",
+  "title": "Field Representative",
+  "department": "",
+  "hireDate": "2025-05-19",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "05-03"
+ },
+ {
+  "id": 900045,
+  "name": "Bradley Nielson",
+  "title": "Field Representative",
+  "department": "",
+  "hireDate": "2025-05-18",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "05-25"
  },
  {
   "id": 747,
@@ -251,6 +834,17 @@
   "service": null,
   "featured": false,
   "birthday": "05-04"
+ },
+ {
+  "id": 900031,
+  "name": "Lenno Hendricks",
+  "title": "LE Business Development Manager",
+  "department": "",
+  "hireDate": "2025-04-28",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "09-19"
  },
  {
   "id": 334,
@@ -396,6 +990,17 @@
   "birthday": "10-07"
  },
  {
+  "id": 900049,
+  "name": "Willard Peterson",
+  "title": "Staccato Experience Specialist II",
+  "department": "",
+  "hireDate": "2025-01-06",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-03"
+ },
+ {
   "id": 318,
   "name": "Mike Allen",
   "title": "LE Business Development Manager",
@@ -405,6 +1010,17 @@
   "service": null,
   "featured": false,
   "birthday": "11-15"
+ },
+ {
+  "id": 900011,
+  "name": "Daniel Carlisle",
+  "title": "Director of Shotgun",
+  "department": "",
+  "hireDate": "2024-12-30",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "12-14"
  },
  {
   "id": 305,
@@ -506,6 +1122,28 @@
   "birthday": "12-10"
  },
  {
+  "id": 900012,
+  "name": "Billy Carter",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2024-10-08",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-25"
+ },
+ {
+  "id": 900065,
+  "name": "Austin Thompson",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2024-10-08",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "11-30"
+ },
+ {
   "id": 289,
   "name": "Jacob Coffing",
   "title": "Customer Experience Coordinator",
@@ -526,6 +1164,17 @@
   "service": null,
   "featured": false,
   "birthday": "04-26"
+ },
+ {
+  "id": 900069,
+  "name": "Tyler Veazey",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2024-09-20",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-04"
  },
  {
   "id": 280,
@@ -825,6 +1474,17 @@
   "birthday": "11-05"
  },
  {
+  "id": 900043,
+  "name": "Michael Nares",
+  "title": "CNC Operator I",
+  "department": "",
+  "hireDate": "2024-04-22",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "09-20"
+ },
+ {
   "id": 220,
   "name": "Emmitt Cooper",
   "title": "Test Fire Specialist I",
@@ -979,6 +1639,17 @@
   "birthday": "01-25"
  },
  {
+  "id": 900053,
+  "name": "Levi Rogers",
+  "title": "SVP of Memberships and Hospitality",
+  "department": "",
+  "hireDate": "2023-12-01",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-23"
+ },
+ {
   "id": 195,
   "name": "Electra Kim",
   "title": "Data and Analytics Manager",
@@ -1010,6 +1681,17 @@
   "service": null,
   "featured": false,
   "birthday": "11-19"
+ },
+ {
+  "id": 900066,
+  "name": "Kennedy Tobias",
+  "title": "Window Attendant",
+  "department": "",
+  "hireDate": "2023-10-25",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-29"
  },
  {
   "id": 192,
@@ -1276,6 +1958,17 @@
   "birthday": "12-01"
  },
  {
+  "id": 900038,
+  "name": "Jonathan Manson",
+  "title": "CNC Operator",
+  "department": "",
+  "hireDate": "2023-06-12",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "11-08"
+ },
+ {
   "id": 146,
   "name": "Julie Reeves",
   "title": "Assistant Controller",
@@ -1428,6 +2121,17 @@
   "service": "Army",
   "featured": false,
   "birthday": "03-23"
+ },
+ {
+  "id": 900010,
+  "name": "Kyle Capp",
+  "title": "Sr. Manufacturing Engineer - Robotics & Automation",
+  "department": "",
+  "hireDate": "2022-11-29",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "11-25"
  },
  {
   "id": 131,
@@ -1705,6 +2409,17 @@
   "birthday": "06-20"
  },
  {
+  "id": 900063,
+  "name": "Ben Tang",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2021-08-23",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "01-02"
+ },
+ {
   "id": 86,
   "name": "Kaitlyn Green",
   "title": "AVP - Elite Member Services",
@@ -1936,6 +2651,17 @@
   "birthday": "06-15"
  },
  {
+  "id": 900003,
+  "name": "Eric Beames",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2020-02-24",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "05-10"
+ },
+ {
   "id": 381,
   "name": "Lynn Crislip",
   "title": "Coating and Packaging Clerk II",
@@ -1978,6 +2704,17 @@
   "service": null,
   "featured": false,
   "birthday": "03-28"
+ },
+ {
+  "id": 900023,
+  "name": "Thomas Farquhar",
+  "title": "Maintenance",
+  "department": "",
+  "hireDate": "2019-06-06",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "09-17"
  },
  {
   "id": 387,
@@ -2024,6 +2761,17 @@
   "birthday": "03-01"
  },
  {
+  "id": 900067,
+  "name": "Pam Tobias",
+  "title": "Food Service Manager",
+  "department": "",
+  "hireDate": "2018-09-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-10"
+ },
+ {
   "id": 389,
   "name": "Dale Little",
   "title": "Manager - IT Operations Manager/Salesforce Admin",
@@ -2046,6 +2794,17 @@
   "birthday": "08-26"
  },
  {
+  "id": 900052,
+  "name": "Jared Radlicki",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2018-01-06",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-26"
+ },
+ {
   "id": 370,
   "name": "Maria Gonzalez",
   "title": "Packaging Specialist II",
@@ -2066,6 +2825,28 @@
   "service": null,
   "featured": false,
   "birthday": "05-24"
+ },
+ {
+  "id": 900064,
+  "name": "Aaron Taylor",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2017-02-14",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "11-06"
+ },
+ {
+  "id": 900014,
+  "name": "Daniela Chrysochou",
+  "title": "Accounts Payable",
+  "department": "",
+  "hireDate": "2016-09-30",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "06-04"
  },
  {
   "id": 392,
@@ -2132,6 +2913,39 @@
   "service": null,
   "featured": false,
   "birthday": "09-20"
+ },
+ {
+  "id": 900013,
+  "name": "Shane Castro",
+  "title": "Instructor",
+  "department": "",
+  "hireDate": "2015-04-03",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "03-21"
+ },
+ {
+  "id": 900008,
+  "name": "Pablo Cajudoy",
+  "title": "Maintenance Supervisor",
+  "department": "",
+  "hireDate": "2014-11-10",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "07-31"
+ },
+ {
+  "id": 900050,
+  "name": "Robert Plate",
+  "title": "Assistant General Manager",
+  "department": "",
+  "hireDate": "2014-09-15",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "08-13"
  },
  {
   "id": 358,
@@ -2220,6 +3034,17 @@
   "service": null,
   "featured": false,
   "birthday": "01-03"
+ },
+ {
+  "id": 900044,
+  "name": "Daimon Nelson",
+  "title": "Concierge and Program Manager",
+  "department": "",
+  "hireDate": "2010-09-07",
+  "photo": null,
+  "service": null,
+  "featured": false,
+  "birthday": "02-08"
  },
  {
   "id": 384,

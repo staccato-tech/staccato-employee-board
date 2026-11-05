@@ -33,17 +33,6 @@
   "birthday": "12-13"
  },
  {
-  "id": 918,
-  "name": "Gary Cooper",
-  "title": "Driver, Blasting and Coating I",
-  "department": "",
-  "hireDate": "2026-05-01",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/05/Screenshot-2026-05-14-at-3.40.58-PM-e1778791311206.png",
-  "service": "Army",
-  "featured": false,
-  "birthday": null
- },
- {
   "id": 851,
   "name": "Marissa Charnes",
   "title": "Senior Accountant",
@@ -116,9 +105,9 @@
   "department": "Customer Service",
   "hireDate": "2025-12-08",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/04/Screenshot-2026-04-27-at-12.54.14-PM.png",
-  "service": null,
+  "service": "Marines",
   "featured": false,
-  "birthday": null
+  "birthday": "12-25"
  },
  {
   "id": 872,
@@ -184,7 +173,7 @@
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2026/05/Employee-Headshots-May-13th-Square-2-e1778788493796.jpg",
   "service": null,
   "featured": false,
-  "birthday": null
+  "birthday": "09-25"
  },
  {
   "id": 868,
@@ -607,13 +596,13 @@
  {
   "id": 718,
   "name": "Manny Gonzales",
-  "title": "IT Admin",
+  "title": "IT Network Administration",
   "department": "IT",
   "hireDate": "2024-07-21",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-51.png",
   "service": "Marines",
   "featured": false,
-  "birthday": null
+  "birthday": "09-11"
  },
  {
   "id": 266,
@@ -870,14 +859,14 @@
  },
  {
   "id": 213,
-  "name": "Brittany Bandel",
-  "title": "Customer Experience Representative",
+  "name": "Brittany Werner",
+  "title": "Technical Solutions and Care Specialist",
   "department": "Customer Service",
   "hireDate": "2024-03-11",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Samantha.jpg",
   "service": null,
   "featured": false,
-  "birthday": null
+  "birthday": "01-28"
  },
  {
   "id": 214,
@@ -1729,13 +1718,13 @@
  {
   "id": 73,
   "name": "John Messer",
-  "title": "EVP, Staccato D,D&C",
+  "title": "President",
   "department": "Administrative",
   "hireDate": "2021-07-05",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09368.jpg",
   "service": null,
   "featured": false,
-  "birthday": null
+  "birthday": "07-21"
  },
  {
   "id": 87,
@@ -2168,25 +2157,25 @@
  },
  {
   "id": 357,
-  "name": "Cindy Byrd",
-  "title": "Shipping Specialist",
+  "name": "Cindy Sue Byrd",
+  "title": "Shipping and Receiving Specialist II",
   "department": "Shipping & Receiving",
   "hireDate": "2013-02-04",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-28.png",
   "service": null,
   "featured": false,
-  "birthday": null
+  "birthday": "07-17"
  },
  {
   "id": 121,
   "name": "Dustin Tackett",
-  "title": "Director of Production",
+  "title": "Director of Warehouse Operations",
   "department": "Administrative",
   "hireDate": "2013-01-13",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09237.jpg",
-  "service": null,
+  "service": "Army",
   "featured": false,
-  "birthday": null
+  "birthday": "03-04"
  },
  {
   "id": 360,

@@ -13,13 +13,13 @@
 
   // Veteran badges. Each branch has its own color (styles.css, .svc-*) and a white icon.
   // To use your own branch logo artwork, save it as an SVG or PNG and set `logo` to its path,
-  // e.g. logo: 'assets/branches/army.svg'. It is rendered white automatically.
+  // e.g. logo: 'assets/branches/army.png'. Logos are shown in full color as a round seal.
   const SERVICE = {
-    'Army':               { label: 'Army Veteran',         icon: 'i-star',     cls: 'army',        logo: null },
-    'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor',   cls: 'navy',        logo: null },
-    'Air Force':          { label: 'Air Force Veteran',    icon: 'i-wings',    cls: 'airforce',    logo: null },
-    'Marines':            { label: 'Marine Veteran',       icon: 'i-globe',    cls: 'marines',     logo: null },
-    'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-lifering', cls: 'coastguard',  logo: null },
+    'Army':               { label: 'Army Veteran',         icon: 'i-star',     cls: 'army',        logo: 'assets/branches/army.png' },
+    'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor',   cls: 'navy',        logo: 'assets/branches/navy.png' },
+    'Air Force':          { label: 'Air Force Veteran',    icon: 'i-wings',    cls: 'airforce',    logo: 'assets/branches/airforce.png' },
+    'Marines':            { label: 'Marine Veteran',       icon: 'i-globe',    cls: 'marines',     logo: 'assets/branches/marines.png' },
+    'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-lifering', cls: 'coastguard',  logo: 'assets/branches/coastguard.png' },
     'Space Force':        { label: 'Space Force Veteran',  icon: 'i-star',     cls: 'other',       logo: null },
     'Military':           { label: 'Military Veteran',     icon: 'i-medal',    cls: 'other',       logo: null },
     'Law Enforcement':    { label: 'Law Enforcement',      icon: 'i-medal',    cls: 'other',       logo: null },

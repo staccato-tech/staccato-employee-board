@@ -206,6 +206,7 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .panel-bday { border-color: rgba(244, 143, 177, .35); background: linear-gradient(160deg, rgba(194, 24, 91, .18), rgba(0, 40, 86, .25)); }
 .panel-vets { background: rgba(46, 125, 50, .28); border-color: rgba(129, 199, 132, .45); }
 .panel-vets .panel-title { color: #c8e6c9; }
+.vets-note { margin: -4px 0 14px; padding-bottom: 12px; border-bottom: 1px solid rgba(129, 199, 132, .3); font-size: 14px; line-height: 1.5; font-style: italic; color: #dcedc8; }
 .panel-vets .mini-tag { display: grid; }
 .vet-seal { width: 30px; height: 30px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(255, 255, 255, .45); }
 .panel-bday .mini-tag { color: #f48fb1; font-size: 22px; display: grid; }

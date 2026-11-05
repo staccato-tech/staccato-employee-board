@@ -137,7 +137,12 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
   font-family: var(--display); font-weight: 700; font-size: clamp(44px, 4.4vw, 72px);
   color: rgba(255, 255, 255, .9); letter-spacing: .04em; margin-bottom: 28%;
 }
-.card-mono svg { position: absolute; right: -18%; top: -14%; width: 70%; height: auto; fill: rgba(255, 255, 255, .05); }
+.card-mono::before {  /* Staccato star, white, cut off at the top-right corner */
+  content: ""; position: absolute; right: -18%; top: -14%; width: 70%; aspect-ratio: 1;
+  background: #fff; opacity: .12;
+  -webkit-mask: url(assets/favicon-512.png) center / contain no-repeat;
+          mask: url(assets/favicon-512.png) center / contain no-repeat;
+}
 
 .card-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 14px 13px; }
 .card-name { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(18px, 1.35vw, 24px); line-height: 1.05; text-transform: uppercase; letter-spacing: .02em; }

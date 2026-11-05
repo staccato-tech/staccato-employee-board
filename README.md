@@ -28,6 +28,20 @@ All content lives in two JSON files:
 
 To edit content, change the JSON and commit. GitHub Pages redeploys in about a minute.
 
+### Syncing with Paylocity
+
+Export from Paylocity with the columns FirstName, LastName, JobTitle, HireDate, BirthDate and Veteran Status, then run:
+
+    pip3 install openpyxl                                   # once
+    python3 scripts/sync_paylocity.py ~/Downloads/Paylocity_Data_Dump.xlsx           # preview
+    python3 scripts/sync_paylocity.py ~/Downloads/Paylocity_Data_Dump.xlsx --write   # save
+
+The sync updates titles, birthdays and veteran status, and adds anyone new. It never removes anyone, and it keeps the board's names, hire dates and photos. The rules it follows are in `data/paylocity_overrides.json`:
+
+- `titleFixes` / `nameFixes`: spelling corrections applied every run, so Paylocity typos don't come back
+- `match`: people whose name or hire date differs between Paylocity and the board
+- `exclude`: people who were removed from the board and shouldn't be added back. When you remove someone, add their name here too
+
 ### Regenerating from WordPress
 
     python3 scripts/build_data.py path/to/WordPress-export.xml

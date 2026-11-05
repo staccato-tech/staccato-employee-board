@@ -1,19 +1,16 @@
 {
   "_about": "Rules applied every time scripts/sync_paylocity.py runs. Edit this file instead of fixing the same thing by hand after each sync.",
-
   "titleFixes": {
     "Chief Excutive Officer": "Chief Executive Officer",
     "Key Account Operatons Specialist": "Key Account Operations Specialist",
     "Member Onboarding  & Retention Coordinator": "Member Onboarding & Retention Coordinator",
     "Director Of Training": "Director of Training"
   },
-
   "nameFixes": {
     "Justn Innes": "Justin Innes",
     "Robert O'reilly": "Robert O'Reilly",
     "Victor Rivera-bocanegra": "Victor Rivera-Bocanegra"
   },
-
   "_matchNote": "Paylocity name -> board name, for people whose last name or hire date differs between the two. The board's name and hire date are kept.",
   "match": {
     "Manuel Gonzales": "Manny Gonzales",
@@ -24,7 +21,6 @@
     "Katelyn Jones": "Katie Duvall",
     "Cindy Sue Byrd": "Cindy Sue Byrd"
   },
-
   "_excludeNote": "People who should never be added back to the board, even if they're still in Paylocity.",
   "exclude": [
     "Sydney Messineo",
@@ -34,6 +30,7 @@
     "Jennifer Crawford Burns",
     "Samantha Thomas",
     "Sezario Singh",
-    "Gary Cooper"
+    "Gary Cooper",
+    "Robert Plate"
   ]
 }

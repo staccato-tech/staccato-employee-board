@@ -2937,17 +2937,6 @@
   "birthday": "07-31"
  },
  {
-  "id": 900050,
-  "name": "Robert Plate",
-  "title": "Assistant General Manager",
-  "department": "",
-  "hireDate": "2014-09-15",
-  "photo": null,
-  "service": null,
-  "featured": false,
-  "birthday": "08-13"
- },
- {
   "id": 358,
   "name": "Keith Fulfer",
   "title": "Gun Shop Director",
@@ -3004,7 +2993,7 @@
  },
  {
   "id": 382,
-  "name": "Nathaniel Snell",
+  "name": "Nat Snell",
   "title": "Material Receiving Inspector",
   "department": "Gun Shop",
   "hireDate": "2011-09-12",
@@ -3081,7 +3070,7 @@
  },
  {
   "id": 373,
-  "name": "Richard Shanline",
+  "name": "Ricky Shanline",
   "title": "Director of Gun Works",
   "department": "Sales – LEO",
   "hireDate": "2008-05-27",
@@ -3114,7 +3103,7 @@
  },
  {
   "id": 352,
-  "name": "Jonathan Willis",
+  "name": "Mike Willis",
   "title": "Coating Department Manager",
   "department": "Operations",
   "hireDate": "2004-03-15",

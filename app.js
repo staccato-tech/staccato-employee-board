@@ -19,7 +19,7 @@
     'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor',   cls: 'navy',        logo: 'assets/branches/navy.png' },
     'Air Force':          { label: 'Air Force Veteran',    icon: 'i-wings',    cls: 'airforce',    logo: 'assets/branches/airforce.png' },
     'Marines':            { label: 'Marine Veteran',       icon: 'i-globe',    cls: 'marines',     logo: 'assets/branches/marines.png' },
-    'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-lifering', cls: 'coastguard',  logo: 'assets/branches/coastguard.png' },
+    'Coast Guard':        { label: 'Coast Guard',          icon: 'i-lifering', cls: 'coastguard',  logo: 'assets/branches/coastguard.png' },
     'Space Force':        { label: 'Space Force Veteran',  icon: 'i-star',     cls: 'other',       logo: null },
     'Military':           { label: 'Military Veteran',     icon: 'i-medal',    cls: 'other',       logo: null },
     'Law Enforcement':    { label: 'Law Enforcement',      icon: 'i-medal',    cls: 'other',       logo: null },
@@ -186,31 +186,54 @@
       }
     }
 
-    // Welcome Aboard: anyone hired in the last 30 days, 6 per page
-    const cutoff = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 30);
+    // Welcome Aboard (hired in the last month) and Today's Birthdays share one panel.
+    // The panel is sized to the number of people. If they don't all fit above the ticker,
+    // they're split into pages that rotate on the board's timer, like Anniversaries.
+    const cutoff = new Date(TODAY.getFullYear(), TODAY.getMonth() - 1, TODAY.getDate());
     const fresh = employees.filter(e => { const d = parseDate(e.hireDate); return d && d >= cutoff && d <= TODAY; })
       .sort((a, b) => b.hireDate.localeCompare(a.hireDate));
-    const hireRow = (e, i) => miniRow(e, e.title || e.department, parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i);
-    const welcomeViews = [];
-    for (let k = 0; k < fresh.length; k += 6) welcomeViews.push({ title: 'Welcome Aboard', html: fresh.slice(k, k + 6).map(hireRow).join('') });
-    if (!welcomeViews.length) welcomeViews.push({ title: 'Welcome Aboard', html: '<li class="mini-empty">No new hires in the last 30 days.</li>' });
-
-    // Today's birthdays (month/day only). The panel rotates between new hires and birthdays.
     const bdays = employees.filter(isBirthdayToday).sort((a, b) => a.name.localeCompare(b.name));
-    const views = [...welcomeViews];
-    if (bdays.length) views.push({ title: "Today's Birthdays", html: bdays.map((e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake'))).join('') });
+    const hireRow = (e, i) => miniRow(e, e.title || e.department, parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i);
+    const bdayRow = (e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake'));
     const wl = $('#new-list'), wt = $('#welcome-title');
-    let wv = 0;
+
+    // How many rows fit between the top of the list and the ticker (no limit when the rail
+    // stacks under the board on narrow screens and the page scrolls).
+    const rowsThatFit = () => {
+      const stacked = getComputedStyle($('#view-board')).gridTemplateColumns.trim().split(/\s+/).length < 2;
+      const top = wl.getBoundingClientRect().top;
+      if (stacked || !top) return Infinity;
+      const ticker = $('#ticker').offsetHeight || 52;
+      const pad = 18 + 16;  // panel bottom padding + gap above the ticker
+      const row = wl.querySelector('li')?.offsetHeight || 40, gap = 10;
+      return Math.max(1, Math.floor((window.innerHeight - ticker - pad - top + gap) / (row + gap)));
+    };
+    const buildViews = () => {
+      const per = rowsThatFit(), out = [];
+      const add = (title, list, row, empty) => {
+        if (!list.length) { if (empty) out.push({ title, html: `<li class="mini-empty">${empty}</li>`, page: '' }); return; }
+        const pages = Math.ceil(list.length / per);
+        for (let k = 0; k < pages; k++)
+          out.push({ title, html: list.slice(k * per, (k + 1) * per).map(row).join(''), page: pages > 1 ? `${k + 1}/${pages}` : '' });
+      };
+      add('Welcome Aboard', fresh, hireRow, 'No new hires in the last month.');
+      add("Today's Birthdays", bdays, bdayRow, null);
+      return out;
+    };
+    let wv = 0, views = buildViews();
     const drawW = () => {
-      wt.textContent = views[wv].title;
-      wt.closest('.panel').classList.toggle('panel-bday', views[wv].title !== 'Welcome Aboard');
-      wl.innerHTML = views[wv].html;
-      wl.style.minHeight = Math.max(parseFloat(wl.style.minHeight) || 0, wl.offsetHeight) + 'px';  // steady height between views
+      const v = views[wv];
+      wt.innerHTML = esc(v.title) + (v.page ? ` <span class="panel-sub">${v.page}</span>` : '');
+      wt.closest('.panel').classList.toggle('panel-bday', v.title !== 'Welcome Aboard');
+      wl.innerHTML = v.html;
     };
     drawW();
-    if (views.length > 1) setInterval(() => {
+    requestAnimationFrame(() => { views = buildViews(); wv = Math.min(wv, views.length - 1); drawW(); });  // re-measure once laid out
+    setInterval(() => {
+      const next = buildViews();
+      if (next.length < 2 && views.length < 2) { views = next; return; }
       wl.querySelectorAll('li').forEach((li, i) => { li.style.setProperty('--i', i); li.classList.add('leaving'); });
-      setTimeout(() => { wv = (wv + 1) % views.length; drawW(); }, 450);
+      setTimeout(() => { views = next; wv = (wv + 1) % views.length; drawW(); }, 450);
     }, INTERVAL);
   }
   function miniRow(e, meta, tag, i = 0, tagHTML = '') {

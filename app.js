@@ -77,7 +77,7 @@
   tickClock(); setInterval(tickClock, 10000);
 
   /* ---------- Board (rotating mosaic) ---------- */
-  let employees = [], queue = [], page = 0, pages = 1, perPage = 10, timer = null, paused = false, progressAnim = null;
+  let employees = [], queue = [], page = 0, pages = 1, perPage = 10, timer = null, progressAnim = null;
 
   const byNewest = list => list.slice().sort((a, b) => (b.hireDate || '').localeCompare(a.hireDate || ''));
   function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
@@ -119,7 +119,6 @@
     const bar = $('#progress-bar');
     if (progressAnim) progressAnim.cancel();
     progressAnim = bar.animate([{ width: '0%' }, { width: '100%' }], { duration: INTERVAL, easing: 'linear', fill: 'forwards' });
-    if (paused) progressAnim.pause();
   }
 
   function go(delta) {
@@ -127,15 +126,8 @@
     renderPage();
     schedule();
   }
-  function schedule() { clearInterval(timer); if (!paused) timer = setInterval(() => go(1), INTERVAL); }
+  function schedule() { clearInterval(timer); timer = setInterval(() => go(1), INTERVAL); }
 
-  function setPaused(p) {
-    paused = p;
-    $('#btn-pause').innerHTML = icon(p ? 'i-play' : 'i-pause');
-    $('#btn-pause').setAttribute('aria-label', p ? 'Resume rotation' : 'Pause rotation');
-    if (progressAnim) p ? progressAnim.pause() : progressAnim.play();
-    schedule();
-  }
 
   // Click the board to change page: right side = next, left side = previous. Arrow keys work too.
   $('#mosaic').addEventListener('click', ev => {
@@ -147,7 +139,6 @@
     if (ev.key === 'ArrowRight') go(1);
     if (ev.key === 'ArrowLeft') go(-1);
   });
-  $('#btn-pause').onclick = () => setPaused(!paused);
   $('#btn-full').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.();
   let resizeT; window.addEventListener('resize', () => { clearTimeout(resizeT); resizeT = setTimeout(() => { if (currentMode() === 'board' && layout()) renderPage(false); }, 200); });
 
@@ -178,7 +169,6 @@
       if (pagesA > 1) {
         requestAnimationFrame(() => { list.style.minHeight = list.offsetHeight + 'px'; });  // keep panel height steady between pages
         setInterval(() => {
-          if (paused) return;
           list.querySelectorAll('li').forEach((li, i) => { li.style.setProperty('--i', i); li.classList.add('leaving'); });
           setTimeout(() => { pa = (pa + 1) % pagesA; draw(); }, 450);
         }, INTERVAL);

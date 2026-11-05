@@ -275,17 +275,6 @@
   "birthday": false
  },
  {
-  "id": 329,
-  "name": "Sezario Singh",
-  "title": "EHS Manager",
-  "department": "Human Resources",
-  "hireDate": "2025-03-24",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/06/Employee-Photos-23.png",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
   "id": 338,
   "name": "Dean Keim",
   "title": "CNC Operator I",
@@ -1150,17 +1139,6 @@
   "department": "Machine Shop",
   "hireDate": "2023-08-28",
   "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/HeadshotWOF-09262.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": false
- },
- {
-  "id": 179,
-  "name": "Samantha Thomas",
-  "title": "Inventory Control Specialist",
-  "department": "Purchasing",
-  "hireDate": "2023-08-23",
-  "photo": "https://stacemployees.wpenginepowered.com/wp-content/uploads/2025/04/Samantha-Thomas-e1761251799681.jpg",
   "service": null,
   "featured": false,
   "birthday": false

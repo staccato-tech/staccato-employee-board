@@ -96,8 +96,11 @@
     mosaic.style.setProperty('--cols', cols);
     mosaic.style.gridAutoRows = cardH + 'px';
     const next = cols * rows;
-    if (next !== perPage) { perPage = next; pages = Math.max(1, Math.ceil(queue.length / perPage)); page = Math.min(page, pages - 1); return true; }
-    return false;
+    const changed = next !== perPage;
+    perPage = next;
+    pages = Math.max(1, Math.ceil(queue.length / perPage));  // always recompute: page count was stuck at 1 when the screen fit exactly 10 cards
+    page = Math.min(page, pages - 1);
+    return changed;
   }
 
   function renderPage(animateOut = true) {

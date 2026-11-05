@@ -47,7 +47,11 @@
   const initials = n => n.split(/\s+/).filter(Boolean).map(w => w[0]).slice(0, 2).join('').toUpperCase();
 
   /* ---------- Card ---------- */
-  function cardHTML(e, i) {
+  const MMDD = d => String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  const isBirthdayToday = e => !!e.birthday && e.birthday === MMDD(TODAY);
+  const bdayLabel = mmdd => new Date(2000, +mmdd.slice(0, 2) - 1, +mmdd.slice(3)).toLocaleDateString([], { month: 'short', day: 'numeric' });
+
+  function cardHTML(e, i, inDirectory = false) {
     const t = tenure(e.hireDate);
     const svc = e.service && (SERVICE[e.service] || { label: e.service, icon: 'i-medal' });
     const media = e.photo
@@ -59,11 +63,12 @@
         <div class="badges">
           ${t ? `<span class="badge badge-tenure" data-band="${band(t)}">${esc(tenureLabel(t))}</span>` : ''}
           ${svc ? `<span class="badge badge-service">${icon(svc.icon)}${esc(svc.label)}</span>` : ''}
-          ${e.birthday ? `<span class="badge badge-bday">${icon('i-cake')}Happy Birthday</span>` : ''}
+          ${isBirthdayToday(e) ? `<span class="badge badge-bday">${icon('i-cake')}Happy Birthday</span>` : ''}
         </div>
         <div class="card-body">
           <h3 class="card-name">${esc(e.name)}</h3>
           ${e.title ? `<p class="card-title">${esc(e.title)}</p>` : ''}
+          ${inDirectory && e.birthday ? `<span class="card-bday">${icon('i-cake')}Birthday ${esc(bdayLabel(e.birthday))}</span>` : ''}
         </div>
       </article>`;
   }
@@ -107,7 +112,7 @@
     const mosaic = $('#mosaic');
     const draw = () => {
       const slice = queue.slice(page * perPage, page * perPage + perPage);
-      mosaic.innerHTML = slice.map(cardHTML).join('');
+      mosaic.innerHTML = slice.map((e, i) => cardHTML(e, i)).join('');
       $('#page-indicator').textContent = `${page + 1} / ${pages}`;
       restartProgress();
     };
@@ -181,12 +186,30 @@
     const cutoff = new Date(TODAY); cutoff.setDate(cutoff.getDate() - 120);
     const fresh = employees.filter(e => { const d = parseDate(e.hireDate); return d && d >= cutoff && d <= TODAY; })
       .sort((a, b) => b.hireDate.localeCompare(a.hireDate)).slice(0, 5);
-    $('#new-list').innerHTML = fresh.length ? fresh.map(e => miniRow(e, e.title || e.department,
-      parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }))).join('') : '<li class="mini-empty">No new hires recently.</li>';
+    const newRows = fresh.length ? fresh.map((e, i) => miniRow(e, e.title || e.department,
+      parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i)).join('') : '<li class="mini-empty">No new hires recently.</li>';
+
+    // Today's birthdays (month/day only). The panel rotates between new hires and birthdays.
+    const bdays = employees.filter(isBirthdayToday).sort((a, b) => a.name.localeCompare(b.name));
+    const views = [{ title: 'Welcome Aboard', html: newRows }];
+    if (bdays.length) views.push({ title: "Today's Birthdays", html: bdays.map((e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake'))).join('') });
+    const wl = $('#new-list'), wt = $('#welcome-title');
+    let wv = 0;
+    const drawW = () => {
+      wt.textContent = views[wv].title;
+      wt.closest('.panel').classList.toggle('panel-bday', views[wv].title !== 'Welcome Aboard');
+      wl.innerHTML = views[wv].html;
+      wl.style.minHeight = Math.max(parseFloat(wl.style.minHeight) || 0, wl.offsetHeight) + 'px';  // steady height between views
+    };
+    drawW();
+    if (views.length > 1) setInterval(() => {
+      wl.querySelectorAll('li').forEach((li, i) => { li.style.setProperty('--i', i); li.classList.add('leaving'); });
+      setTimeout(() => { wv = (wv + 1) % views.length; drawW(); }, 450);
+    }, INTERVAL);
   }
-  function miniRow(e, meta, tag, i = 0) {
+  function miniRow(e, meta, tag, i = 0, tagHTML = '') {
     const av = e.photo ? `<img class="mini-av" src="${esc(e.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'mini-av',textContent:'${esc(initials(e.name))}'}))">` : `<span class="mini-av">${esc(initials(e.name))}</span>`;
-    return `<li style="--i:${i}">${av}<div><div class="mini-name">${esc(e.name)}</div><div class="mini-meta">${esc(meta)}</div></div><span class="mini-tag">${esc(tag)}</span></li>`;
+    return `<li style="--i:${i}">${av}<div><div class="mini-name">${esc(e.name)}</div><div class="mini-meta">${esc(meta)}</div></div><span class="mini-tag">${tagHTML || esc(tag)}</span></li>`;
   }
 
   function cleanWP(html) {
@@ -262,7 +285,7 @@
       : sort === 'newest' ? (a, b) => (b.hireDate || '').localeCompare(a.hireDate || '')
       : (a, b) => a.name.localeCompare(b.name));
     $('#dir-count').textContent = `${list.length} of ${employees.length} teammates`;
-    $('#dir-grid').innerHTML = list.map(cardHTML).join('');
+    $('#dir-grid').innerHTML = list.map((e, i) => cardHTML(e, i, true)).join('');
   }
 
   /* ---------- Routing ---------- */

@@ -188,6 +188,10 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .mini-tag { font-family: var(--display); font-weight: 700; font-size: 18px; color: var(--gold); white-space: nowrap; }
 .mini-list li > div { min-width: 0; }
 .mini-list li.leaving { animation: card-out .4s ease-in forwards; animation-delay: calc(var(--i, 0) * 30ms); }
+.card-bday { margin-top: 6px; display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--ink-2); }
+.card-bday svg { color: #f48fb1; font-size: 12px; }
+.panel-bday { border-color: rgba(244, 143, 177, .35); background: linear-gradient(160deg, rgba(194, 24, 91, .18), rgba(0, 40, 86, .25)); }
+.panel-bday .mini-tag { color: #f48fb1; font-size: 22px; display: grid; }
 .mini-empty { color: var(--ink-3); font-size: 13px; }
 
 .bulletin { border-left: 3px solid var(--blue-500); }

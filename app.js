@@ -186,15 +186,18 @@
       }
     }
 
-    const cutoff = new Date(TODAY); cutoff.setDate(cutoff.getDate() - 120);
+    // Welcome Aboard: anyone hired in the last 30 days, 6 per page
+    const cutoff = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 30);
     const fresh = employees.filter(e => { const d = parseDate(e.hireDate); return d && d >= cutoff && d <= TODAY; })
-      .sort((a, b) => b.hireDate.localeCompare(a.hireDate)).slice(0, 5);
-    const newRows = fresh.length ? fresh.map((e, i) => miniRow(e, e.title || e.department,
-      parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i)).join('') : '<li class="mini-empty">No new hires recently.</li>';
+      .sort((a, b) => b.hireDate.localeCompare(a.hireDate));
+    const hireRow = (e, i) => miniRow(e, e.title || e.department, parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i);
+    const welcomeViews = [];
+    for (let k = 0; k < fresh.length; k += 6) welcomeViews.push({ title: 'Welcome Aboard', html: fresh.slice(k, k + 6).map(hireRow).join('') });
+    if (!welcomeViews.length) welcomeViews.push({ title: 'Welcome Aboard', html: '<li class="mini-empty">No new hires in the last 30 days.</li>' });
 
     // Today's birthdays (month/day only). The panel rotates between new hires and birthdays.
     const bdays = employees.filter(isBirthdayToday).sort((a, b) => a.name.localeCompare(b.name));
-    const views = [{ title: 'Welcome Aboard', html: newRows }];
+    const views = [...welcomeViews];
     if (bdays.length) views.push({ title: "Today's Birthdays", html: bdays.map((e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake'))).join('') });
     const wl = $('#new-list'), wt = $('#welcome-title');
     let wv = 0;

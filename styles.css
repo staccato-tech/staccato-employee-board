@@ -181,12 +181,13 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .value-dots i.on { background: #fff; }
 
 .mini-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.mini-list li { display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center; }
+.mini-list li { opacity: 0; animation: card-in .5s ease forwards; animation-delay: calc(var(--i, 0) * 60ms); display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center; }
 .mini-av { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; object-position: center 22%; background: var(--navy-700); display: grid; place-items: center; font-family: var(--display); font-weight: 700; font-size: 16px; }
 .mini-name { font-weight: 600; font-size: 14px; line-height: 1.2; }
 .mini-meta { font-size: 12px; color: var(--ink-3); line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .mini-tag { font-family: var(--display); font-weight: 700; font-size: 18px; color: var(--gold); white-space: nowrap; }
 .mini-list li > div { min-width: 0; }
+.mini-list li.leaving { animation: card-out .4s ease-in forwards; animation-delay: calc(var(--i, 0) * 30ms); }
 .mini-empty { color: var(--ink-3); font-size: 13px; }
 
 .bulletin { border-left: 3px solid var(--blue-500); }
@@ -257,6 +258,6 @@ body.tv .view-board { height: 100%; min-height: 0; }
   .ticker-label span { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .card, .card.leaving { animation: none; opacity: 1; transform: none; }
+  .card, .card.leaving, .mini-list li, .mini-list li.leaving { animation: none; opacity: 1; transform: none; }
   .ticker-run { animation-duration: 0s; }
 }

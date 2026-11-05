@@ -151,11 +151,31 @@
       .map(e => ({ e, d: parseDate(e.hireDate) }))
       .filter(x => x.d && x.d.getMonth() === month && x.d.getFullYear() < TODAY.getFullYear())
       .map(x => ({ ...x, yrs: TODAY.getFullYear() - x.d.getFullYear() }))
-      .sort((a, b) => b.yrs - a.yrs || a.d.getDate() - b.d.getDate())
-      .slice(0, 6);
-    $('#anniv-list').innerHTML = anniv.length ? anniv.map(({ e, d, yrs }) => miniRow(e,
-      `${d.toLocaleDateString([], { month: 'short', day: 'numeric' })} · ${e.department || e.title}`,
-      `${yrs} YR${yrs > 1 ? 'S' : ''}`)).join('') : '<li class="mini-empty">No work anniversaries this month.</li>';
+      .sort((a, b) => b.yrs - a.yrs || a.d.getDate() - b.d.getDate());
+    const list = $('#anniv-list');
+    if (!anniv.length) { list.innerHTML = '<li class="mini-empty">No work anniversaries this month.</li>'; }
+    else {
+      // More than 6 this month: rotate through them 6 at a time, on the same clock as the board
+      const PER = 6, pagesA = Math.ceil(anniv.length / PER);
+      let pa = 0;
+      const sub = $('#anniv-month');
+      const monthName = TODAY.toLocaleDateString([], { month: 'long' });
+      const draw = () => {
+        list.innerHTML = anniv.slice(pa * PER, pa * PER + PER).map(({ e, d, yrs }, i) => miniRow(e,
+          `${d.toLocaleDateString([], { month: 'short', day: 'numeric' })} · ${e.department || e.title}`,
+          `${yrs} YR${yrs > 1 ? 'S' : ''}`, i)).join('');
+        sub.textContent = pagesA > 1 ? `${monthName} · ${pa + 1}/${pagesA}` : monthName;
+      };
+      draw();
+      if (pagesA > 1) {
+        requestAnimationFrame(() => { list.style.minHeight = list.offsetHeight + 'px'; });  // keep panel height steady between pages
+        setInterval(() => {
+          if (paused) return;
+          list.querySelectorAll('li').forEach((li, i) => { li.style.setProperty('--i', i); li.classList.add('leaving'); });
+          setTimeout(() => { pa = (pa + 1) % pagesA; draw(); }, 450);
+        }, INTERVAL);
+      }
+    }
 
     const cutoff = new Date(TODAY); cutoff.setDate(cutoff.getDate() - 120);
     const fresh = employees.filter(e => { const d = parseDate(e.hireDate); return d && d >= cutoff && d <= TODAY; })
@@ -163,9 +183,9 @@
     $('#new-list').innerHTML = fresh.length ? fresh.map(e => miniRow(e, e.title || e.department,
       parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }))).join('') : '<li class="mini-empty">No new hires recently.</li>';
   }
-  function miniRow(e, meta, tag) {
+  function miniRow(e, meta, tag, i = 0) {
     const av = e.photo ? `<img class="mini-av" src="${esc(e.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'mini-av',textContent:'${esc(initials(e.name))}'}))">` : `<span class="mini-av">${esc(initials(e.name))}</span>`;
-    return `<li>${av}<div><div class="mini-name">${esc(e.name)}</div><div class="mini-meta">${esc(meta)}</div></div><span class="mini-tag">${esc(tag)}</span></li>`;
+    return `<li style="--i:${i}">${av}<div><div class="mini-name">${esc(e.name)}</div><div class="mini-meta">${esc(meta)}</div></div><span class="mini-tag">${esc(tag)}</span></li>`;
   }
 
   function cleanWP(html) {

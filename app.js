@@ -58,8 +58,8 @@
     const t = tenure(e.hireDate);
     const svc = e.service && (SERVICE[e.service] || { label: e.service, icon: 'i-medal', cls: 'other' });
     const media = e.photo
-      ? `<img class="card-photo" src="${esc(e.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'card-mono',innerHTML:'<span>${esc(initials(e.name))}</span>'}))">`
-      : `<div class="card-mono"><span>${esc(initials(e.name))}</span></div>`;
+      ? `<img class="card-photo" src="${esc(e.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'card-mono',innerHTML:''}))">`
+      : `<div class="card-mono"></div>`;
     return `
       <article class="card${e.featured ? ' is-featured' : ''}" style="--i:${i}">
         ${media}

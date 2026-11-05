@@ -238,6 +238,11 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
   display: flex; align-items: center; gap: 8px; padding: 0 20px;
   background: var(--blue-500); font-family: var(--display); font-weight: 700; font-size: 17px; letter-spacing: .14em; text-transform: uppercase;
 }
+.ticker-star {
+  width: 24px; height: 24px; flex: none; background: #fff;
+  -webkit-mask: url(assets/favicon-512.png) center / contain no-repeat;
+          mask: url(assets/favicon-512.png) center / contain no-repeat;
+}
 .ticker-track { position: relative; flex: 1; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
 .ticker-run { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; white-space: nowrap; will-change: transform; animation: ticker var(--dur, 60s) linear infinite; }
 .ticker-run span { padding: 0 28px; font-size: 15px; color: var(--ink-2); }

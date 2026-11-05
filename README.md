@@ -80,6 +80,10 @@ Other commands:
 - `uv run python -m unittest discover -s scripts -p 'test_*.py'` runs the photo tests.
 - `uv run scripts/localize_photos.py` downloads photos still on the old WordPress site into `assets/photos/`. Run `sync_photos.py push` afterwards.
 
+### Veterans Day
+
+On November 11 the Anniversaries and Welcome Aboard/Birthday panels are replaced by a green "Thank You, Veterans" panel. It lists everyone with a veteran status, with their photo, branch and branch seal, and rotates pages if they don't all fit. To preview it on any day, add `?veteransday=1` to the URL.
+
 ## Run locally
 
     python3 -m http.server 8000   # then open http://localhost:8000

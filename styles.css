@@ -204,6 +204,10 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .card-bday { margin-top: 6px; display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--ink-2); }
 .card-bday svg { color: #f48fb1; font-size: 12px; }
 .panel-bday { border-color: rgba(244, 143, 177, .35); background: linear-gradient(160deg, rgba(194, 24, 91, .18), rgba(0, 40, 86, .25)); }
+.panel-vets { background: rgba(46, 125, 50, .28); border-color: rgba(129, 199, 132, .45); }
+.panel-vets .panel-title { color: #c8e6c9; }
+.panel-vets .mini-tag { display: grid; }
+.vet-seal { width: 30px; height: 30px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(255, 255, 255, .45); }
 .panel-bday .mini-tag { color: #f48fb1; font-size: 22px; display: grid; }
 .mini-empty { color: var(--ink-3); font-size: 13px; }
 

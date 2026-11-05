@@ -10,6 +10,8 @@
   const INTERVAL = Math.max(5, Number(params.get('interval')) || 20) * 1000;
   const VALUE_INTERVAL = 8000;
   const TODAY = new Date();
+  // Veterans Day (Nov 11): the side panels give way to a list of our veterans. Preview any day with ?veteransday=1
+  const VETERANS_DAY = (TODAY.getMonth() === 10 && TODAY.getDate() === 11) || params.get('veteransday') === '1';
 
   // Veteran badges. Each branch has its own color (styles.css, .svc-*) and a white icon.
   // To use your own branch logo artwork, save it as an SVG or PNG and set `logo` to its path,
@@ -155,6 +157,12 @@
 
   /* ---------- Rail ---------- */
   function renderMilestones() {
+    const annivPanel = $('#anniv-list').closest('.panel'), welcomePanel = $('#new-list').closest('.panel');
+    if (VETERANS_DAY) {
+      annivPanel.hidden = true; welcomePanel.hidden = true; $('#vets-panel').hidden = false;
+      renderVeterans();
+      return;
+    }
     const month = TODAY.getMonth();
     $('#anniv-month').textContent = TODAY.toLocaleDateString([], { month: 'long' });
     const anniv = employees
@@ -187,53 +195,71 @@
     }
 
     // Welcome Aboard (hired in the last month) and Today's Birthdays share one panel.
-    // The panel is sized to the number of people. If they don't all fit above the ticker,
-    // they're split into pages that rotate on the board's timer, like Anniversaries.
     const cutoff = new Date(TODAY.getFullYear(), TODAY.getMonth() - 1, TODAY.getDate());
     const fresh = employees.filter(e => { const d = parseDate(e.hireDate); return d && d >= cutoff && d <= TODAY; })
       .sort((a, b) => b.hireDate.localeCompare(a.hireDate));
     const bdays = employees.filter(isBirthdayToday).sort((a, b) => a.name.localeCompare(b.name));
-    const hireRow = (e, i) => miniRow(e, e.title || e.department, parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i);
-    const bdayRow = (e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake'));
-    const wl = $('#new-list'), wt = $('#welcome-title');
+    fittedRotation($('#new-list'), $('#welcome-title'), [
+      { title: 'Welcome Aboard', items: fresh, empty: 'No new hires in the last month.',
+        row: (e, i) => miniRow(e, e.title || e.department, parseDate(e.hireDate).toLocaleDateString([], { month: 'short', day: 'numeric' }), i) },
+      { title: "Today's Birthdays", items: bdays, cls: 'panel-bday',
+        row: (e, i) => miniRow(e, e.title || e.department, '', i, icon('i-cake')) },
+    ]);
+  }
 
-    // How many rows fit between the top of the list and the ticker (no limit when the rail
-    // stacks under the board on narrow screens and the page scrolls).
+  // Veterans Day: everyone with a veteran status, with photo and branch.
+  function renderVeterans() {
+    const order = Object.keys(SERVICE);
+    const vets = employees.filter(e => e.service)
+      .sort((a, b) => order.indexOf(a.service) - order.indexOf(b.service) || a.name.localeCompare(b.name));
+    fittedRotation($('#vets-list'), $('#vets-title'), [
+      { title: 'Thank You, Veterans', items: vets, empty: 'Thank you to all who served.',
+        row: (e, i) => {
+          const svc = SERVICE[e.service] || { label: e.service };
+          const label = /veteran|law|emergency/i.test(svc.label) ? svc.label : svc.label + ' Veteran';
+          const seal = svc.logo ? `<img class="vet-seal" src="${esc(svc.logo)}" alt="">` : icon(svc.icon || 'i-medal');
+          return miniRow(e, label, '', i, seal);
+        } },
+    ]);
+  }
+
+  // Shows one or more lists in a panel, sized to the number of people. When they don't all
+  // fit above the ticker, they're split into pages that rotate on the board's timer.
+  function fittedRotation(list, titleEl, sections) {
+    const panel = list.closest('.panel');
     const rowsThatFit = () => {
       const stacked = getComputedStyle($('#view-board')).gridTemplateColumns.trim().split(/\s+/).length < 2;
-      const top = wl.getBoundingClientRect().top;
+      const top = list.getBoundingClientRect().top;
       if (stacked || !top) return Infinity;
       const ticker = $('#ticker').offsetHeight || 52;
       const pad = 18 + 16;  // panel bottom padding + gap above the ticker
-      const row = wl.querySelector('li')?.offsetHeight || 40, gap = 10;
+      const row = list.querySelector('li')?.offsetHeight || 40, gap = 10;
       return Math.max(1, Math.floor((window.innerHeight - ticker - pad - top + gap) / (row + gap)));
     };
-    const buildViews = () => {
+    const build = () => {
       const per = rowsThatFit(), out = [];
-      const add = (title, list, row, empty) => {
-        if (!list.length) { if (empty) out.push({ title, html: `<li class="mini-empty">${empty}</li>`, page: '' }); return; }
-        const pages = Math.ceil(list.length / per);
+      for (const s of sections) {
+        if (!s.items.length) { if (s.empty) out.push({ s, html: `<li class="mini-empty">${esc(s.empty)}</li>`, page: '' }); continue; }
+        const pages = Math.ceil(s.items.length / per);
         for (let k = 0; k < pages; k++)
-          out.push({ title, html: list.slice(k * per, (k + 1) * per).map(row).join(''), page: pages > 1 ? `${k + 1}/${pages}` : '' });
-      };
-      add('Welcome Aboard', fresh, hireRow, 'No new hires in the last month.');
-      add("Today's Birthdays", bdays, bdayRow, null);
+          out.push({ s, html: s.items.slice(k * per, (k + 1) * per).map(s.row).join(''), page: pages > 1 ? `${k + 1}/${pages}` : '' });
+      }
       return out;
     };
-    let wv = 0, views = buildViews();
-    const drawW = () => {
-      const v = views[wv];
-      wt.innerHTML = esc(v.title) + (v.page ? ` <span class="panel-sub">${v.page}</span>` : '');
-      wt.closest('.panel').classList.toggle('panel-bday', v.title !== 'Welcome Aboard');
-      wl.innerHTML = v.html;
+    let i = 0, views = build();
+    const draw = () => {
+      const v = views[i];
+      titleEl.innerHTML = esc(v.s.title) + (v.page ? ` <span class="panel-sub">${v.page}</span>` : '');
+      sections.forEach(s => s.cls && panel.classList.toggle(s.cls, s === v.s));
+      list.innerHTML = v.html;
     };
-    drawW();
-    requestAnimationFrame(() => { views = buildViews(); wv = Math.min(wv, views.length - 1); drawW(); });  // re-measure once laid out
+    draw();
+    requestAnimationFrame(() => { views = build(); i = Math.min(i, views.length - 1); draw(); });  // re-measure once laid out
     setInterval(() => {
-      const next = buildViews();
+      const next = build();
       if (next.length < 2 && views.length < 2) { views = next; return; }
-      wl.querySelectorAll('li').forEach((li, i) => { li.style.setProperty('--i', i); li.classList.add('leaving'); });
-      setTimeout(() => { views = next; wv = (wv + 1) % views.length; drawW(); }, 450);
+      list.querySelectorAll('li').forEach((li, n) => { li.style.setProperty('--i', n); li.classList.add('leaving'); });
+      setTimeout(() => { views = next; i = (i + 1) % views.length; draw(); }, 450);
     }, INTERVAL);
   }
   function miniRow(e, meta, tag, i = 0, tagHTML = '') {

@@ -11,16 +11,19 @@
   const VALUE_INTERVAL = 8000;
   const TODAY = new Date();
 
+  // Veteran badges. Each branch has its own color (styles.css, .svc-*) and a white icon.
+  // To use your own branch logo artwork, save it as an SVG or PNG and set `logo` to its path,
+  // e.g. logo: 'assets/branches/army.svg'. It is rendered white automatically.
   const SERVICE = {
-    'Army':               { label: 'Army Veteran',         icon: 'i-shield' },
-    'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor' },
-    'Air Force':          { label: 'Air Force Veteran',    icon: 'i-plane' },
-    'Marines':            { label: 'Marine Veteran', icon: 'i-shield' },
-    'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-anchor' },
-    'Space Force':        { label: 'Space Force Veteran',  icon: 'i-star' },
-    'Military':           { label: 'Military Veteran',     icon: 'i-medal' },
-    'Law Enforcement':    { label: 'Law Enforcement',      icon: 'i-shield' },
-    'Emergency Services': { label: 'Emergency Services',   icon: 'i-medal' },
+    'Army':               { label: 'Army Veteran',         icon: 'i-star',     cls: 'army',        logo: null },
+    'Navy':               { label: 'Navy Veteran',         icon: 'i-anchor',   cls: 'navy',        logo: null },
+    'Air Force':          { label: 'Air Force Veteran',    icon: 'i-wings',    cls: 'airforce',    logo: null },
+    'Marines':            { label: 'Marine Veteran',       icon: 'i-globe',    cls: 'marines',     logo: null },
+    'Coast Guard':        { label: 'Coast Guard Veteran',  icon: 'i-lifering', cls: 'coastguard',  logo: null },
+    'Space Force':        { label: 'Space Force Veteran',  icon: 'i-star',     cls: 'other',       logo: null },
+    'Military':           { label: 'Military Veteran',     icon: 'i-medal',    cls: 'other',       logo: null },
+    'Law Enforcement':    { label: 'Law Enforcement',      icon: 'i-medal',    cls: 'other',       logo: null },
+    'Emergency Services': { label: 'Emergency Services',   icon: 'i-medal',    cls: 'other',       logo: null },
   };
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -53,7 +56,7 @@
 
   function cardHTML(e, i, inDirectory = false) {
     const t = tenure(e.hireDate);
-    const svc = e.service && (SERVICE[e.service] || { label: e.service, icon: 'i-medal' });
+    const svc = e.service && (SERVICE[e.service] || { label: e.service, icon: 'i-medal', cls: 'other' });
     const media = e.photo
       ? `<img class="card-photo" src="${esc(e.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'card-mono',innerHTML:'<span>${esc(initials(e.name))}</span>'}))">`
       : `<div class="card-mono"><svg><use href="#i-star"/></svg><span>${esc(initials(e.name))}</span></div>`;
@@ -62,7 +65,7 @@
         ${media}
         <div class="badges">
           ${t ? `<span class="badge badge-tenure" data-band="${band(t)}">${esc(tenureLabel(t))}</span>` : ''}
-          ${svc ? `<span class="badge badge-service">${icon(svc.icon)}${esc(svc.label)}</span>` : ''}
+          ${svc ? `<span class="badge badge-service svc-${svc.cls}">${svc.logo ? `<img class="badge-logo" src="${esc(svc.logo)}" alt="">` : icon(svc.icon)}${esc(svc.label)}</span>` : ''}
           ${isBirthdayToday(e) ? `<span class="badge badge-bday">${icon('i-cake')}Happy Birthday</span>` : ''}
         </div>
         <div class="card-body">

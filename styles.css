@@ -154,7 +154,15 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .badge-tenure[data-band="new"] { background: rgba(0, 117, 201, .85); border-color: transparent; }
 .badge-tenure[data-band="5"]   { color: #fff; border-color: rgba(95, 179, 238, .6); }
 .badge-tenure[data-band="10"]  { color: #1d1300; background: var(--gold); border-color: transparent; }
-.badge-service { background: rgba(58, 74, 44, .9); border-color: rgba(190, 210, 150, .35); }
+.badge-service { color: #fff; border-color: rgba(255, 255, 255, .28); }
+.badge-service svg, .badge-logo { color: #fff; fill: #fff; }
+.badge-logo { width: 13px; height: 13px; object-fit: contain; filter: brightness(0) invert(1); }
+.svc-army       { background: #2b5a2e; }  /* forest green */
+.svc-airforce   { background: #3f8fd2; }  /* light blue */
+.svc-navy       { background: #0b1f4a; border-color: rgba(255, 255, 255, .45); }  /* navy blue */
+.svc-marines    { background: #b0171f; }  /* red */
+.svc-coastguard { background: #e0661f; }  /* orange */
+.svc-other      { background: rgba(0, 13, 31, .72); }
 .badge-bday { background: #c2185b; border-color: transparent; }
 .card.is-featured { outline: 2px solid var(--gold); outline-offset: -2px; }
 

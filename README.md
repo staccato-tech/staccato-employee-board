@@ -18,6 +18,7 @@ All content lives in two JSON files:
 - `data/employees.json`: `name, title, department, hireDate (YYYY-MM-DD), photo, service, featured, birthday (MM-DD)`
   - `birthday` is month and day only, never the year. It shows on Directory cards, adds a Happy Birthday badge on the day, and feeds the Today's Birthdays panel
   - `service` sets the veteran badge: `Army`, `Navy`, `Air Force`, `Marines`, `Coast Guard`, `Space Force`, `Military`, `Law Enforcement`, `Emergency Services`
+  - Each branch badge has its own color, set by the `.svc-*` classes in `styles.css`. To use official branch artwork, save the SVG or PNG files in `assets/branches/` and set `logo` for that branch in the `SERVICE` table at the top of `app.js`. They're rendered white automatically
   - Tenure and anniversaries are calculated automatically from `hireDate`
   - Employees with no `photo` get a monogram card
 - `data/bulletins.json`: `title, type, expires, html`

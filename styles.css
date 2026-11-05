@@ -100,7 +100,7 @@ main { padding: 24px clamp(16px, 3vw, 40px) calc(var(--ticker-h) + 24px); }
 .page-indicator { color: var(--ink-3); font-size: 13px; margin-right: 6px; font-variant-numeric: tabular-nums; }
 
 .mosaic {
-  flex: 1;
+  flex: 1; cursor: pointer; user-select: none;
   display: grid; gap: 14px;
   grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr));
   grid-auto-rows: 1fr;

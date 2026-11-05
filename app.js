@@ -137,8 +137,16 @@
     schedule();
   }
 
-  $('#btn-next').onclick = () => go(1);
-  $('#btn-prev').onclick = () => go(-1);
+  // Click the board to change page: right side = next, left side = previous. Arrow keys work too.
+  $('#mosaic').addEventListener('click', ev => {
+    const r = $('#mosaic').getBoundingClientRect();
+    go(ev.clientX < r.left + r.width / 3 ? -1 : 1);
+  });
+  document.addEventListener('keydown', ev => {
+    if (currentMode() !== 'board') return;
+    if (ev.key === 'ArrowRight') go(1);
+    if (ev.key === 'ArrowLeft') go(-1);
+  });
   $('#btn-pause').onclick = () => setPaused(!paused);
   $('#btn-full').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.();
   let resizeT; window.addEventListener('resize', () => { clearTimeout(resizeT); resizeT = setTimeout(() => { if (currentMode() === 'board' && layout()) renderPage(false); }, 200); });

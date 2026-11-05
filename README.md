@@ -48,14 +48,37 @@ The sync updates titles, birthdays and veteran status, and adds anyone new. It n
 
 This script also cleans up department names. For example, `910 - OPS- Machine Shop` becomes `Machine Shop`, and stray numeric IDs are removed.
 
-### Photos (Azure Blob Storage)
+### Photos (Azure photo pipeline)
 
-Photos are hosted in Azure Blob Storage. To move any images still on the old WP Engine site into Azure and repoint the data files, run:
+Photos aren't stored in Git. Originals are archived in Azure Blob Storage under `assets/photos/<id>.<ext>`. Optimized copies (960px WebP, about 60 KB each) are under `assets/photos-rendered/<id>.webp`, and the board loads them from the storage account's web address set in `data/config.json`. `data/employees.json` stores the original's path, for example `assets/photos/938.jpg`. If `config.json` is missing, cards show the no-photo design.
 
-    az login
-    python3 scripts/migrate_photos_to_azure.py --account <storage-account>
+**The photo address is public.** Anyone who has it can open the photos, so delete a departed employee's files from the container when you remove them from the board. The sync never deletes anything.
 
-For a new employee photo, upload it to the `employees/` folder in the container and put its blob URL in that person's `photo` field.
+Setup (once):
+
+    brew install uv                 # or see docs.astral.sh/uv
+    uv sync --locked
+    cp .env.example .env            # then fill in the Azure values
+
+Adding or replacing a photo:
+
+1. Save the original as `assets/photos/<id>.jpg` (or .png). `<id>` is the person's `id` in `data/employees.json`.
+2. Set their `photo` field to `assets/photos/<id>.jpg`.
+3. Preview the upload, then upload it:
+
+        uv run python scripts/sync_photos.py push --dry-run
+        uv run python scripts/sync_photos.py push
+
+    The push renders the WebP copy and uploads both versions.
+4. Commit and push `data/employees.json`.
+
+Other commands:
+
+- `uv run python scripts/sync_photos.py pull` downloads the originals and WebP copies to your machine.
+- `uv run python scripts/render_photos.py` renders WebP copies locally. Preview them at `http://localhost:8000/?photos=local`.
+- `uv run python scripts/configure_frontend.py` regenerates `data/config.json` after changing `AZURE_WEB_URL` or the rendered-photo folder.
+- `uv run python -m unittest discover -s scripts -p 'test_*.py'` runs the photo tests.
+- `uv run scripts/localize_photos.py` downloads photos still on the old WordPress site into `assets/photos/`. Run `sync_photos.py push` afterwards.
 
 ## Run locally
 

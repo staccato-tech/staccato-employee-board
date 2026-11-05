@@ -310,8 +310,21 @@
   Promise.all([
     fetch('data/employees.json').then(r => r.json()),
     fetch('data/bulletins.json').then(r => r.json()).catch(() => []),
-  ]).then(([emps, bulletins]) => {
-    employees = emps;
+    fetch('data/config.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([emps, bulletins, config]) => {
+    // Photos are archived as originals (assets/photos/<id>.<ext>). The board shows the optimized
+    // WebP copy from Azure (see data/config.json). ?photos=local uses locally rendered copies instead.
+    // If the config can't be loaded, cards fall back to the no-photo design instead of failing.
+    const localPhotos = params.get('photos') === 'local';
+    const base = (config.photoWebUrl || '').replace(/\/+$/, '');
+    const prefix = (config.photoPrefix || 'assets/photos-rendered/').replace(/^\/+|\/+$/g, '');
+    const ext = config.photoExtension || '.webp';
+    employees = emps.map(e => {
+      if (!e.photo || !e.photo.startsWith('assets/photos/')) return e;
+      const file = e.photo.slice('assets/photos/'.length).replace(/\.[^.]+$/, ext);
+      if (localPhotos) return { ...e, photo: (config.photoLocalPath || 'assets/photos-rendered/') + file };
+      return { ...e, photo: base ? `${base}/${prefix}/${encodeURIComponent(file)}` : null };
+    });
     queue = byNewest(employees);  // board order: newest hire first, longest tenure last
     $('#headcount').textContent = employees.length;
     renderMilestones();

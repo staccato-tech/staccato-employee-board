@@ -4,3 +4,9 @@ _migrate/
 __pycache__/
 *.pyc
 *.xlsx
+.venv/
+.env
+.env.*
+!.env.example
+assets/photos/
+assets/photos-rendered/

@@ -253,17 +253,6 @@
   "birthday": "08-19"
  },
  {
-  "id": 900025,
-  "name": "Chanler Graves",
-  "title": "Lathe Operator LHA",
-  "department": "",
-  "hireDate": "2026-06-17",
-  "photo": null,
-  "service": null,
-  "featured": false,
-  "birthday": "08-16"
- },
- {
   "id": 938,
   "name": "Jay Cruz",
   "title": "Field Sales Representative",
@@ -660,17 +649,6 @@
   "birthday": "11-17"
  },
  {
-  "id": 900021,
-  "name": "Jan Willem Driessen",
-  "title": "Chief Marketing Officer",
-  "department": "",
-  "hireDate": "2025-09-01",
-  "photo": null,
-  "service": null,
-  "featured": false,
-  "birthday": "06-09"
- },
- {
   "id": 900042,
   "name": "Luke Moser",
   "title": "Test Fire Specialist I",
@@ -856,17 +834,6 @@
   "service": "Air Force",
   "featured": false,
   "birthday": "01-03"
- },
- {
-  "id": 338,
-  "name": "Dean Keim",
-  "title": "CNC Operator I",
-  "department": "Machine Shop",
-  "hireDate": "2025-03-24",
-  "photo": null,
-  "service": null,
-  "featured": false,
-  "birthday": null
  },
  {
   "id": 340,

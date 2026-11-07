@@ -5,7 +5,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-10-14",
-  "photo": null,
+  "photo": "assets/photos/900036-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "12-01"
@@ -16,7 +16,7 @@
   "title": "Member Onboarding & Retention Coordinator",
   "department": "",
   "hireDate": "2026-10-07",
-  "photo": null,
+  "photo": "assets/photos/900004-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "08-31"
@@ -27,7 +27,7 @@
   "title": "SR VP of Quality and Safety",
   "department": "",
   "hireDate": "2026-09-28",
-  "photo": null,
+  "photo": "assets/photos/900072-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "07-22"
@@ -38,7 +38,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-09-23",
-  "photo": null,
+  "photo": "assets/photos/900055-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "02-22"
@@ -49,7 +49,7 @@
   "title": "Operations Manager",
   "department": "",
   "hireDate": "2026-09-21",
-  "photo": null,
+  "photo": "assets/photos/900037-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "02-13"
@@ -82,7 +82,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-09-16",
-  "photo": null,
+  "photo": "assets/photos/900061-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-06"
@@ -115,7 +115,7 @@
   "title": "Continuous Improvement Engineer",
   "department": "",
   "hireDate": "2026-09-08",
-  "photo": null,
+  "photo": "assets/photos/900073-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "02-14"
@@ -126,7 +126,7 @@
   "title": "Experience Leader/Firearm Instructor",
   "department": "",
   "hireDate": "2026-08-17",
-  "photo": null,
+  "photo": "assets/photos/900029-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "08-11"
@@ -170,7 +170,7 @@
   "title": "Key Account Operations Specialist",
   "department": "",
   "hireDate": "2026-07-13",
-  "photo": null,
+  "photo": "assets/photos/900016-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "11-11"
@@ -181,7 +181,7 @@
   "title": "Customer Support Technical Specialist",
   "department": "",
   "hireDate": "2026-07-13",
-  "photo": null,
+  "photo": "assets/photos/900054-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "10-03"
@@ -192,7 +192,7 @@
   "title": "Vault Clerk",
   "department": "",
   "hireDate": "2026-07-06",
-  "photo": null,
+  "photo": "assets/photos/900007-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "12-25"
@@ -214,7 +214,7 @@
   "title": "Recruiter",
   "department": "",
   "hireDate": "2026-06-30",
-  "photo": null,
+  "photo": "assets/photos/900019-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-18"
@@ -236,7 +236,7 @@
   "title": "Firearms Sales & Buying Experience Specialist",
   "department": "",
   "hireDate": "2026-06-25",
-  "photo": null,
+  "photo": "assets/photos/900059-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "04-04"
@@ -269,7 +269,7 @@
   "title": "Marketing Coordinator",
   "department": "",
   "hireDate": "2026-06-08",
-  "photo": null,
+  "photo": "assets/photos/900056-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "04-14"
@@ -280,7 +280,7 @@
   "title": "Chief Technology Officer",
   "department": "",
   "hireDate": "2026-06-08",
-  "photo": null,
+  "photo": "assets/photos/900060-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "09-19"
@@ -291,7 +291,7 @@
   "title": "Link and Time Specialist I",
   "department": "",
   "hireDate": "2026-06-01",
-  "photo": null,
+  "photo": "assets/photos/900027-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-07"
@@ -302,7 +302,7 @@
   "title": "Ecommerce Fulfillment Specialist I",
   "department": "",
   "hireDate": "2026-05-18",
-  "photo": null,
+  "photo": "assets/photos/900006-202611.jpg",
   "service": "Coast Guard",
   "featured": false,
   "birthday": "11-27"
@@ -313,7 +313,7 @@
   "title": "Gun Production Specialist I",
   "department": "",
   "hireDate": "2026-05-11",
-  "photo": null,
+  "photo": "assets/photos/900001-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "01-20"
@@ -346,7 +346,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-04-01",
-  "photo": null,
+  "photo": "assets/photos/900070-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "08-13"
@@ -379,7 +379,7 @@
   "title": "Retail Sales Associate",
   "department": "",
   "hireDate": "2026-03-25",
-  "photo": null,
+  "photo": "assets/photos/900000-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "10-15"
@@ -423,7 +423,7 @@
   "title": "Receiving and Inspection Clerk",
   "department": "",
   "hireDate": "2026-03-23",
-  "photo": null,
+  "photo": "assets/photos/900068-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "07-11"
@@ -456,7 +456,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-03-09",
-  "photo": null,
+  "photo": "assets/photos/900058-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-07"
@@ -467,7 +467,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-03-02",
-  "photo": null,
+  "photo": "assets/photos/900015-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "08-18"
@@ -478,7 +478,7 @@
   "title": "Ranch Technician",
   "department": "",
   "hireDate": "2026-03-02",
-  "photo": null,
+  "photo": "assets/photos/900024-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-25"
@@ -544,7 +544,7 @@
   "title": "Production Specialist I",
   "department": "",
   "hireDate": "2025-11-19",
-  "photo": null,
+  "photo": "assets/photos/900005-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-22"
@@ -555,7 +555,7 @@
   "title": "SVP, Shooting Sports and Training",
   "department": "",
   "hireDate": "2025-11-03",
-  "photo": null,
+  "photo": "assets/photos/900040-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "12-15"
@@ -599,7 +599,7 @@
   "title": "Technical Solutions Specialist",
   "department": "",
   "hireDate": "2025-09-22",
-  "photo": null,
+  "photo": "assets/photos/900057-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-13"
@@ -610,7 +610,7 @@
   "title": "Range Support Specialist",
   "department": "",
   "hireDate": "2025-09-17",
-  "photo": null,
+  "photo": "assets/photos/900071-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "01-28"
@@ -753,7 +753,7 @@
   "title": "Operations Manager",
   "department": "",
   "hireDate": "2025-05-30",
-  "photo": null,
+  "photo": "assets/photos/900033-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "07-21"
@@ -852,7 +852,7 @@
   "title": "Machine Operator",
   "department": "Machine Shop",
   "hireDate": "2025-03-03",
-  "photo": null,
+  "photo": "assets/photos/325-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-03"
@@ -874,7 +874,7 @@
   "title": "Ammo Loader I",
   "department": "Machine Shop",
   "hireDate": "2025-03-03",
-  "photo": "assets/photos/351.jpg",
+  "photo": "assets/photos/351-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "04-26"
@@ -940,7 +940,7 @@
   "title": "Customer Support Team Lead",
   "department": "Customer Service",
   "hireDate": "2025-01-06",
-  "photo": null,
+  "photo": "assets/photos/312-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "11-05"
@@ -962,7 +962,7 @@
   "title": "Staccato Experience Specialist II",
   "department": "",
   "hireDate": "2025-01-06",
-  "photo": null,
+  "photo": "assets/photos/900049-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "07-03"
@@ -1061,7 +1061,7 @@
   "title": "Senior Accountant",
   "department": "Accounting",
   "hireDate": "2024-10-21",
-  "photo": null,
+  "photo": "assets/photos/294-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-06"
@@ -1138,7 +1138,7 @@
   "title": "Instructor",
   "department": "",
   "hireDate": "2024-09-20",
-  "photo": null,
+  "photo": "assets/photos/900069-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-04"
@@ -1314,7 +1314,7 @@
   "title": "Kitting Specialist I",
   "department": "Machine Shop",
   "hireDate": "2024-05-28",
-  "photo": null,
+  "photo": "assets/photos/236-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "12-17"
@@ -1336,7 +1336,7 @@
   "title": "CNC Operator I",
   "department": "Machine Shop",
   "hireDate": "2024-05-28",
-  "photo": null,
+  "photo": "assets/photos/242-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-19"
@@ -1446,7 +1446,7 @@
   "title": "CNC Operator I",
   "department": "",
   "hireDate": "2024-04-22",
-  "photo": null,
+  "photo": "assets/photos/900043-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "09-20"
@@ -1556,7 +1556,7 @@
   "title": "Team Lead Link & Time",
   "department": "Gun Shop",
   "hireDate": "2024-01-29",
-  "photo": null,
+  "photo": "assets/photos/204-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "09-15"
@@ -1611,7 +1611,7 @@
   "title": "SVP of Memberships and Hospitality",
   "department": "",
   "hireDate": "2023-12-01",
-  "photo": null,
+  "photo": "assets/photos/900053-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-23"
@@ -2051,7 +2051,7 @@
   "title": "SVP of Operations",
   "department": "Machine Shop",
   "hireDate": "2023-02-13",
-  "photo": "assets/photos/143.jpg",
+  "photo": "assets/photos/143-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "02-11"
@@ -2623,7 +2623,7 @@
   "title": "Instructor",
   "department": "",
   "hireDate": "2020-02-24",
-  "photo": null,
+  "photo": "assets/photos/900003-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "05-10"
@@ -2810,7 +2810,7 @@
   "title": "Accounts Payable",
   "department": "",
   "hireDate": "2016-09-30",
-  "photo": null,
+  "photo": "assets/photos/900014-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "06-04"
@@ -2887,7 +2887,7 @@
   "title": "Instructor",
   "department": "",
   "hireDate": "2015-04-03",
-  "photo": null,
+  "photo": "assets/photos/900013-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "03-21"
@@ -2997,7 +2997,7 @@
   "title": "Concierge and Program Manager",
   "department": "",
   "hireDate": "2010-09-07",
-  "photo": null,
+  "photo": "assets/photos/900044-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "02-08"
@@ -3041,7 +3041,7 @@
   "title": "Director of Gun Works",
   "department": "Sales – LEO",
   "hireDate": "2008-05-27",
-  "photo": null,
+  "photo": "assets/photos/373-202611.jpg",
   "service": null,
   "featured": false,
   "birthday": "07-02"

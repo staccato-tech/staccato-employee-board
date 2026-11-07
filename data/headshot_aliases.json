@@ -1,0 +1,10 @@
+{
+  "_about": "Photo file name (without extension) -> name on the board, for headshots whose file name doesn't match exactly. Used by scripts/import_headshots.py.",
+  "Nate Wilkes": "Nathan Wilkes",
+  "Everest Sampter": "Everest Samter",
+  "Sam Sanderford": "Samuel Sanderford",
+  "Joshua Carr": "Josh Carr",
+  "Jeff Button": "Jeffrey Button",
+  "Josh Lorenson": "Joshua Lorenson",
+  "Dani Chrysochou": "Daniela Chrysochou"
+}

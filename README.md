@@ -72,6 +72,14 @@ Adding or replacing a photo:
     The push renders the WebP copy and uploads both versions.
 4. Commit and push `data/employees.json`.
 
+Importing a batch of headshots from the photographer (files named "First Last.jpg"):
+
+    uv run scripts/import_headshots.py "path/to/Edited"            # preview the matches
+    uv run scripts/import_headshots.py "path/to/Edited" --write    # import
+    uv run python scripts/sync_photos.py push                     # upload to Azure
+
+Nicknames or misspelled file names go in `data/headshot_aliases.json`.
+
 Other commands:
 
 - `uv run python scripts/sync_photos.py pull` downloads the originals and WebP copies to your machine.

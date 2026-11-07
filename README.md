@@ -90,7 +90,7 @@ Other commands:
 
 ### Veterans Day
 
-On November 11 the Anniversaries and Welcome Aboard/Birthday panels are replaced by a green "Thank You, Veterans" panel. It lists everyone with a veteran status, with their photo, branch and branch seal, and rotates pages if they don't all fit. To preview it on any day, add `?veteransday=1` to the URL.
+During the week of Veterans Day (Monday through Saturday of the week that includes November 11), the Anniversaries and Welcome Aboard/Birthday panels are replaced by a green "Thank You, Veterans" panel. It lists everyone with a veteran status, with their photo, branch and branch seal, and rotates pages if they don't all fit. To preview it on any day, add `?veteransday=1` to the URL.
 
 ## Run locally
 

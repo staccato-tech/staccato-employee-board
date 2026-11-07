@@ -10,8 +10,15 @@
   const INTERVAL = Math.max(5, Number(params.get('interval')) || 20) * 1000;
   const VALUE_INTERVAL = 8000;
   const TODAY = new Date();
-  // Veterans Day (Nov 11): the side panels give way to a list of our veterans. Preview any day with ?veteransday=1
-  const VETERANS_DAY = (TODAY.getMonth() === 10 && TODAY.getDate() === 11) || params.get('veteransday') === '1';
+  // Veterans Day week: from the Monday of the week of Nov 11 through Saturday (back to normal on Sunday),
+  // the side panels give way to a list of our veterans. Preview any day with ?veteransday=1
+  const VETERANS_DAY = (() => {
+    const day = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate());
+    const nov11 = new Date(TODAY.getFullYear(), 10, 11);
+    const monday = new Date(nov11); monday.setDate(nov11.getDate() - ((nov11.getDay() + 6) % 7));
+    const sunday = new Date(monday); sunday.setDate(monday.getDate() + 6);
+    return (day >= monday && day < sunday) || day.getTime() === nov11.getTime() || params.get('veteransday') === '1';
+  })();
 
   // Veteran badges. Each branch has its own color (styles.css, .svc-*) and a white icon.
   // To use your own branch logo artwork, save it as an SVG or PNG and set `logo` to its path,

@@ -556,7 +556,7 @@
   "department": "",
   "hireDate": "2025-11-03",
   "photo": "assets/photos/900040-202611.jpg",
-  "service": null,
+  "service": "Army",
   "featured": false,
   "birthday": "12-15"
  },
@@ -611,7 +611,7 @@
   "department": "",
   "hireDate": "2025-09-17",
   "photo": "assets/photos/900071-202611.jpg",
-  "service": null,
+  "service": "Army",
   "featured": false,
   "birthday": "01-28"
  },
@@ -963,7 +963,7 @@
   "department": "",
   "hireDate": "2025-01-06",
   "photo": "assets/photos/900049-202611.jpg",
-  "service": null,
+  "service": "Army",
   "featured": false,
   "birthday": "07-03"
  },
@@ -2118,7 +2118,7 @@
   "department": "New Product Development",
   "hireDate": "2022-09-21",
   "photo": "assets/photos/129.jpg",
-  "service": null,
+  "service": "Army",
   "featured": false,
   "birthday": "02-13"
  },

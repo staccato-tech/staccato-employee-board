@@ -46,8 +46,10 @@ def main():
         e = by_name.get(key(aliases.get(key(name), name)))
         if not e:
             unmatched.append(f.name); continue
-        if e['id'] in dupes:                                 # two files for one person: keep the newer edit
-            if f.stat().st_mtime <= dupes[e['id']][0].stat().st_mtime:
+        if e['id'] in dupes:                                 # two files for one person: prefer the one without a
+            prev = dupes[e['id']][0]                         # "(1)" copy suffix, which can be a misnamed photo
+            print(f"  Note: two photos for {e['name']}: {prev.name} and {f.name}")
+            if re.search(r'\(\d+\)$', f.stem) or not re.search(r'\(\d+\)$', prev.stem):
                 continue
             matched.remove(dupes[e['id']])
         dupes[e['id']] = (f, e)

@@ -1067,17 +1067,6 @@
   "birthday": "03-06"
  },
  {
-  "id": 295,
-  "name": "Caleb Clough",
-  "title": "CNC Operator I",
-  "department": "Machine Shop",
-  "hireDate": "2024-10-21",
-  "photo": "assets/photos/295.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": null
- },
- {
   "id": 293,
   "name": "Daniel Logush",
   "title": "Visual Designer",
@@ -1318,17 +1307,6 @@
   "service": null,
   "featured": false,
   "birthday": "12-17"
- },
- {
-  "id": 240,
-  "name": "Brandon Hernandez",
-  "title": "CNC Operator",
-  "department": "Machine Shop",
-  "hireDate": "2024-05-28",
-  "photo": "assets/photos/240.png",
-  "service": null,
-  "featured": false,
-  "birthday": null
  },
  {
   "id": 242,
@@ -2233,17 +2211,6 @@
   "birthday": "07-13"
  },
  {
-  "id": 110,
-  "name": "Alan Martinez",
-  "title": "CNC Operator I",
-  "department": "Machine Shop",
-  "hireDate": "2022-05-16",
-  "photo": "assets/photos/110.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": null
- },
- {
   "id": 111,
   "name": "Cullen Fravel",
   "title": "Design Engineer II",
@@ -2330,17 +2297,6 @@
   "service": null,
   "featured": false,
   "birthday": "05-21"
- },
- {
-  "id": 95,
-  "name": "Mark Hernandez",
-  "title": "CNC Operator",
-  "department": "Machine Shop",
-  "hireDate": "2021-11-29",
-  "photo": "assets/photos/95.jpg",
-  "service": null,
-  "featured": false,
-  "birthday": null
  },
  {
   "id": 96,
